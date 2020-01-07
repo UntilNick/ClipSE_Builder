@@ -1,0 +1,101 @@
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ClipPurseFrm.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Properties.Resources.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.csproj.GenerateResource.cache
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\ClipPurSEditionBuilder.exe.config
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\ClipPurSEditionBuilder.exe
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\ClipPurSEditionBuilder.pdb
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ClipPurseFrm.resources
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Controls.BuildSE.resources
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Controls.InfoSE.resources
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Controls.LicenSE.resources
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Controls.WalletSE.resources
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Properties.Resources.resources
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.csproj.GenerateResource.cache
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.exe
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.pdb
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Controls.NewWalletSE.resources
+C:\Users\Antlion\Desktop\Моя разработка\Новый билдер под билд\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.csprojAssemblyReference.cache
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ClipPurseFrm.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Properties.Resources.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.csproj.GenerateResource.cache
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\ClipSE Builder by r3xq1.exe.config
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\ClipSE Builder by r3xq1.exe
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\ClipSE Builder by r3xq1.pdb
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipSE Builder by r3xq1.exe
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipSE Builder by r3xq1.pdb
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.BuildSE.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.EmptySE.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.InfoSE.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.LicenSE.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.NewWalletSE.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.UpdateSE.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.WalletSE.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\en-US\ClipSE Builder by r3xq1.resources.dll
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ClipPurseFrm.en-US.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\en-US\ClipSE Builder by r3xq1.resources.dll
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.WalletSE.en-US.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Language.GlobalMessageStrings_en-US.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Language.GlobalMessageStrings_ru_RU.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.NewWalletSE.en-US.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.LicenSE.en-US.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.UpdateSE.en-US.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.csprojAssemblyReference.cache
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.BuildSE.en-US.resources
+C:\Users\Antlion\Desktop\For Test New Clipper\Builder\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.InfoSE.en-US.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\ClipSE Builder by r3xq1.exe.config
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\ClipSE Builder by r3xq1.exe
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\ClipSE Builder by r3xq1.pdb
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\en-US\ClipSE Builder by r3xq1.resources.dll
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.BuildSE.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.EmptySE.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.InfoSE.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.LicenSE.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.NewWalletSE.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.UpdateSE.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.WalletSE.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Language.GlobalMessageStrings_en-US.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Language.GlobalMessageStrings_ru_RU.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ClipPurseFrm.en-US.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.BuildSE.en-US.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.InfoSE.en-US.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.LicenSE.en-US.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.NewWalletSE.en-US.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.UpdateSE.en-US.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.WalletSE.en-US.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\en-US\ClipSE Builder by r3xq1.resources.dll
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipSE Builder by r3xq1.exe
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipSE Builder by r3xq1.pdb
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.LoGGeR.resources
+E:\Project\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.LoGGeR.en-US.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\ClipSE Builder by r3xq1.exe.config
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\ClipSE Builder by r3xq1.exe
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\ClipSE Builder by r3xq1.pdb
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\bin\Debug\en-US\ClipSE Builder by r3xq1.resources.dll
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.csprojAssemblyReference.cache
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ClipPurseFrm.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.BuildSE.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.EmptySE.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.InfoSE.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.LicenSE.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.LoGGeR.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.NewWalletSE.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.UpdateSE.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.WalletSE.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Language.GlobalMessageStrings_en-US.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Language.GlobalMessageStrings_ru_RU.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.Properties.Resources.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ClipPurseFrm.en-US.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.BuildSE.en-US.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.InfoSE.en-US.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.LicenSE.en-US.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.LoGGeR.en-US.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.NewWalletSE.en-US.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.UpdateSE.en-US.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.ControlsSE.WalletSE.en-US.resources
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipPurSEditionBuilder.csproj.GenerateResource.cache
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\en-US\ClipSE Builder by r3xq1.resources.dll
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipSE Builder by r3xq1.exe
+C:\Users\Rudnight\Desktop\Новая папка (4)\Новая папка\ClipPurSEditionBuilder\ClipPurSEditionBuilder\obj\Debug\ClipSE Builder by r3xq1.pdb

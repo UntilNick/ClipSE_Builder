@@ -1,0 +1,1734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="InfoText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InfoText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="InfoText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InfoText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InfoText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 9</value>
+  </data>
+  <data name="InfoText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 14</value>
+  </data>
+  <data name="InfoText.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="InfoText.Text" xml:space="preserve">
+    <value>Создание билд файла</value>
+  </data>
+  <data name="&gt;&gt;InfoText.Name" xml:space="preserve">
+    <value>InfoText</value>
+  </data>
+  <data name="&gt;&gt;InfoText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InfoText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InfoText.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <metadata name="LinePanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="LinePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 27</value>
+  </data>
+  <data name="LinePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 1</value>
+  </data>
+  <data name="LinePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;LinePanel.Name" xml:space="preserve">
+    <value>LinePanel</value>
+  </data>
+  <data name="&gt;&gt;LinePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LinePanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LinePanel.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <metadata name="IconText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="IconText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IconText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="IconText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IconText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 58</value>
+  </data>
+  <data name="IconText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 14</value>
+  </data>
+  <data name="IconText.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="IconText.Text" xml:space="preserve">
+    <value>Путь к иконке:</value>
+  </data>
+  <data name="&gt;&gt;IconText.Name" xml:space="preserve">
+    <value>IconText</value>
+  </data>
+  <data name="&gt;&gt;IconText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IconText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;IconText.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <metadata name="IcoPath.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="IcoPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 56</value>
+  </data>
+  <data name="IcoPath.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="IcoPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 20</value>
+  </data>
+  <data name="IcoPath.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <metadata name="ShowHelperBuildSE.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="IcoPath.ToolTip" xml:space="preserve">
+    <value>Полный путь к иконке</value>
+  </data>
+  <data name="&gt;&gt;IcoPath.Name" xml:space="preserve">
+    <value>IcoPath</value>
+  </data>
+  <data name="&gt;&gt;IcoPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IcoPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;IcoPath.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <metadata name="SelectIcon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SelectIcon.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="SelectIcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SelectIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 57</value>
+  </data>
+  <data name="SelectIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 19</value>
+  </data>
+  <data name="SelectIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="SelectIcon.Text" xml:space="preserve">
+    <value>....</value>
+  </data>
+  <data name="&gt;&gt;SelectIcon.Name" xml:space="preserve">
+    <value>SelectIcon</value>
+  </data>
+  <data name="&gt;&gt;SelectIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SelectIcon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SelectIcon.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <metadata name="BuildText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="BuildText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BuildText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="BuildText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BuildText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 94</value>
+  </data>
+  <data name="BuildText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 14</value>
+  </data>
+  <data name="BuildText.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="BuildText.Text" xml:space="preserve">
+    <value>Имя файла:</value>
+  </data>
+  <data name="&gt;&gt;BuildText.Name" xml:space="preserve">
+    <value>BuildText</value>
+  </data>
+  <data name="&gt;&gt;BuildText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BuildText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BuildText.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <metadata name="NameOutput.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="NameOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 93</value>
+  </data>
+  <data name="NameOutput.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="NameOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 20</value>
+  </data>
+  <data name="NameOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="NameOutput.Text" xml:space="preserve">
+    <value>NameBuild</value>
+  </data>
+  <data name="NameOutput.ToolTip" xml:space="preserve">
+    <value>Имя Вашего билд файла</value>
+  </data>
+  <data name="&gt;&gt;NameOutput.Name" xml:space="preserve">
+    <value>NameOutput</value>
+  </data>
+  <data name="&gt;&gt;NameOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameOutput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NameOutput.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <metadata name="SizeIcon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SizeIcon.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SizeIcon.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="SizeIcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SizeIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 149</value>
+  </data>
+  <data name="SizeIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 14</value>
+  </data>
+  <data name="SizeIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;SizeIcon.Name" xml:space="preserve">
+    <value>SizeIcon</value>
+  </data>
+  <data name="&gt;&gt;SizeIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SizeIcon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SizeIcon.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <metadata name="Generation.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Generation.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Generation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Generation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Generation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 128</value>
+  </data>
+  <data name="Generation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 37</value>
+  </data>
+  <data name="Generation.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="Generation.Text" xml:space="preserve">
+    <value>Создать билд</value>
+  </data>
+  <data name="&gt;&gt;Generation.Name" xml:space="preserve">
+    <value>Generation</value>
+  </data>
+  <data name="&gt;&gt;Generation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Generation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Generation.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <metadata name="ShowMessage.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ShowMessage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ShowMessage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 172</value>
+  </data>
+  <data name="ShowMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="ShowMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="&gt;&gt;ShowMessage.Name" xml:space="preserve">
+    <value>ShowMessage</value>
+  </data>
+  <data name="&gt;&gt;ShowMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowMessage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowMessage.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <metadata name="AssVerText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssVerText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AssVerText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="AssVerText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AssVerText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 327</value>
+  </data>
+  <data name="AssVerText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 14</value>
+  </data>
+  <data name="AssVerText.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="AssVerText.Text" xml:space="preserve">
+    <value>AssemblyVersion:</value>
+  </data>
+  <data name="&gt;&gt;AssVerText.Name" xml:space="preserve">
+    <value>AssVerText</value>
+  </data>
+  <data name="&gt;&gt;AssVerText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssVerText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssVerText.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <metadata name="AssVerTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssVerTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 324</value>
+  </data>
+  <data name="AssVerTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="AssVerTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 20</value>
+  </data>
+  <data name="AssVerTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="AssVerTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;AssVerTextBox.Name" xml:space="preserve">
+    <value>AssVerTextBox</value>
+  </data>
+  <data name="&gt;&gt;AssVerTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssVerTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssVerTextBox.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <metadata name="AssGuidText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssGuidText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AssGuidText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="AssGuidText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AssGuidText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 380</value>
+  </data>
+  <data name="AssGuidText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 14</value>
+  </data>
+  <data name="AssGuidText.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="AssGuidText.Text" xml:space="preserve">
+    <value>AssemblyGuid:</value>
+  </data>
+  <data name="&gt;&gt;AssGuidText.Name" xml:space="preserve">
+    <value>AssGuidText</value>
+  </data>
+  <data name="&gt;&gt;AssGuidText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssGuidText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssGuidText.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <metadata name="AssGuidTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssGuidTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 377</value>
+  </data>
+  <data name="AssGuidTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="AssGuidTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 20</value>
+  </data>
+  <data name="AssGuidTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="AssGuidTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;AssGuidTextBox.Name" xml:space="preserve">
+    <value>AssGuidTextBox</value>
+  </data>
+  <data name="&gt;&gt;AssGuidTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssGuidTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssGuidTextBox.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <metadata name="AssCompanyText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssCompanyText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AssCompanyText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="AssCompanyText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AssCompanyText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 246</value>
+  </data>
+  <data name="AssCompanyText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 14</value>
+  </data>
+  <data name="AssCompanyText.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="AssCompanyText.Text" xml:space="preserve">
+    <value>AssemblyCompany:</value>
+  </data>
+  <data name="&gt;&gt;AssCompanyText.Name" xml:space="preserve">
+    <value>AssCompanyText</value>
+  </data>
+  <data name="&gt;&gt;AssCompanyText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssCompanyText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssCompanyText.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <metadata name="AssCompanyTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssCompanyTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 244</value>
+  </data>
+  <data name="AssCompanyTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="AssCompanyTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 20</value>
+  </data>
+  <data name="AssCompanyTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="AssCompanyTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;AssCompanyTextBox.Name" xml:space="preserve">
+    <value>AssCompanyTextBox</value>
+  </data>
+  <data name="&gt;&gt;AssCompanyTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssCompanyTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssCompanyTextBox.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <metadata name="IPLoGGeR.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="IPLoGGeR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IPLoGGeR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="IPLoGGeR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IPLoGGeR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 421</value>
+  </data>
+  <data name="IPLoGGeR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 14</value>
+  </data>
+  <data name="IPLoGGeR.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="IPLoGGeR.Text" xml:space="preserve">
+    <value>IPLogger:</value>
+  </data>
+  <data name="IPLoGGeR.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;IPLoGGeR.Name" xml:space="preserve">
+    <value>IPLoGGeR</value>
+  </data>
+  <data name="&gt;&gt;IPLoGGeR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IPLoGGeR.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;IPLoGGeR.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <metadata name="IPBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="IPBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 418</value>
+  </data>
+  <data name="IPBox.MaxLength" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="IPBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 20</value>
+  </data>
+  <data name="IPBox.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="IPBox.ToolTip" xml:space="preserve">
+    <value>Пример: https://maper.info/XoEm9</value>
+  </data>
+  <data name="IPBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;IPBox.Name" xml:space="preserve">
+    <value>IPBox</value>
+  </data>
+  <data name="&gt;&gt;IPBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IPBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;IPBox.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <metadata name="AssFVText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssFVText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AssFVText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="AssFVText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AssFVText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 353</value>
+  </data>
+  <data name="AssFVText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 14</value>
+  </data>
+  <data name="AssFVText.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="AssFVText.Text" xml:space="preserve">
+    <value>AssemblyFileVersion:</value>
+  </data>
+  <data name="&gt;&gt;AssFVText.Name" xml:space="preserve">
+    <value>AssFVText</value>
+  </data>
+  <data name="&gt;&gt;AssFVText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssFVText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssFVText.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <metadata name="AssFileVerTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssFileVerTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 350</value>
+  </data>
+  <data name="AssFileVerTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="AssFileVerTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 20</value>
+  </data>
+  <data name="AssFileVerTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="AssFileVerTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;AssFileVerTextBox.Name" xml:space="preserve">
+    <value>AssFileVerTextBox</value>
+  </data>
+  <data name="&gt;&gt;AssFileVerTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssFileVerTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssFileVerTextBox.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <metadata name="AssCopyText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssCopyText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AssCopyText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="AssCopyText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AssCopyText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 300</value>
+  </data>
+  <data name="AssCopyText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 14</value>
+  </data>
+  <data name="AssCopyText.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="AssCopyText.Text" xml:space="preserve">
+    <value>AssemblyCopyright:</value>
+  </data>
+  <data name="&gt;&gt;AssCopyText.Name" xml:space="preserve">
+    <value>AssCopyText</value>
+  </data>
+  <data name="&gt;&gt;AssCopyText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssCopyText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssCopyText.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <metadata name="AssCopyrightTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssCopyrightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 297</value>
+  </data>
+  <data name="AssCopyrightTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="AssCopyrightTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 20</value>
+  </data>
+  <data name="AssCopyrightTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="AssCopyrightTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;AssCopyrightTextBox.Name" xml:space="preserve">
+    <value>AssCopyrightTextBox</value>
+  </data>
+  <data name="&gt;&gt;AssCopyrightTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssCopyrightTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssCopyrightTextBox.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <metadata name="AssProdText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssProdText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AssProdText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="AssProdText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AssProdText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 273</value>
+  </data>
+  <data name="AssProdText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 14</value>
+  </data>
+  <data name="AssProdText.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="AssProdText.Text" xml:space="preserve">
+    <value>AssemblyProduct:</value>
+  </data>
+  <data name="&gt;&gt;AssProdText.Name" xml:space="preserve">
+    <value>AssProdText</value>
+  </data>
+  <data name="&gt;&gt;AssProdText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssProdText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssProdText.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <metadata name="AssProductTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssProductTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 270</value>
+  </data>
+  <data name="AssProductTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="AssProductTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 20</value>
+  </data>
+  <data name="AssProductTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="AssProductTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;AssProductTextBox.Name" xml:space="preserve">
+    <value>AssProductTextBox</value>
+  </data>
+  <data name="&gt;&gt;AssProductTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssProductTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssProductTextBox.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <metadata name="AssDescText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssDescText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AssDescText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="AssDescText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AssDescText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 221</value>
+  </data>
+  <data name="AssDescText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 14</value>
+  </data>
+  <data name="AssDescText.TabIndex" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="AssDescText.Text" xml:space="preserve">
+    <value>AssemblyDescription:</value>
+  </data>
+  <data name="&gt;&gt;AssDescText.Name" xml:space="preserve">
+    <value>AssDescText</value>
+  </data>
+  <data name="&gt;&gt;AssDescText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssDescText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssDescText.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <metadata name="AssDescriptTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssDescriptTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 218</value>
+  </data>
+  <data name="AssDescriptTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="AssDescriptTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 20</value>
+  </data>
+  <data name="AssDescriptTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="AssDescriptTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;AssDescriptTextBox.Name" xml:space="preserve">
+    <value>AssDescriptTextBox</value>
+  </data>
+  <data name="&gt;&gt;AssDescriptTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssDescriptTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssDescriptTextBox.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <metadata name="AssTitleText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssTitleText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AssTitleText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="AssTitleText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AssTitleText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 194</value>
+  </data>
+  <data name="AssTitleText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 14</value>
+  </data>
+  <data name="AssTitleText.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="AssTitleText.Text" xml:space="preserve">
+    <value>AssemblyTitle:</value>
+  </data>
+  <data name="&gt;&gt;AssTitleText.Name" xml:space="preserve">
+    <value>AssTitleText</value>
+  </data>
+  <data name="&gt;&gt;AssTitleText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssTitleText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssTitleText.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <metadata name="AssTitleTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AssTitleTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 191</value>
+  </data>
+  <data name="AssTitleTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="AssTitleTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 20</value>
+  </data>
+  <data name="AssTitleTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="AssTitleTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;AssTitleTextBox.Name" xml:space="preserve">
+    <value>AssTitleTextBox</value>
+  </data>
+  <data name="&gt;&gt;AssTitleTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AssTitleTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AssTitleTextBox.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <metadata name="GenAss.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GenAss.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="GenAss.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GenAss.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GenAss.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 162</value>
+  </data>
+  <data name="GenAss.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 23</value>
+  </data>
+  <data name="GenAss.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="GenAss.Text" xml:space="preserve">
+    <value>Генерировать свойства для билд файла</value>
+  </data>
+  <data name="&gt;&gt;GenAss.Name" xml:space="preserve">
+    <value>GenAss</value>
+  </data>
+  <data name="&gt;&gt;GenAss.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GenAss.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GenAss.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <metadata name="IcoViewer.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="IcoViewer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IcoViewer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 82</value>
+  </data>
+  <data name="IcoViewer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 58</value>
+  </data>
+  <data name="IcoViewer.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="IcoViewer.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;IcoViewer.Name" xml:space="preserve">
+    <value>IcoViewer</value>
+  </data>
+  <data name="&gt;&gt;IcoViewer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IcoViewer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;IcoViewer.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <metadata name="HelperIPLogger.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="HelperIPLogger.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HelperIPLogger.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="HelperIPLogger.Location" type="System.Drawing.Point, System.Drawing">
+    <value>558, 422</value>
+  </data>
+  <data name="HelperIPLogger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="HelperIPLogger.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="HelperIPLogger.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="HelperIPLogger.ToolTip" xml:space="preserve">
+    <value>Переход по ссылке на сервис IPLogger</value>
+  </data>
+  <data name="HelperIPLogger.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;HelperIPLogger.Name" xml:space="preserve">
+    <value>HelperIPLogger</value>
+  </data>
+  <data name="&gt;&gt;HelperIPLogger.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelperIPLogger.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HelperIPLogger.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="ErrorBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ErrorBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 79</value>
+  </data>
+  <data name="ErrorBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="ErrorBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ErrorBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 61</value>
+  </data>
+  <data name="ErrorBox.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="ErrorBox.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="ErrorBox.ToolTip" xml:space="preserve">
+    <value>В это поле введите любой текст, он будет отображаться в текстовом файле в виде ошибки.</value>
+  </data>
+  <data name="ErrorBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ErrorBox.Name" xml:space="preserve">
+    <value>ErrorBox</value>
+  </data>
+  <data name="&gt;&gt;ErrorBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ErrorBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ErrorBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="FakeCheckBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="FakeCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FakeCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FakeCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 56</value>
+  </data>
+  <data name="FakeCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="FakeCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="FakeCheckBox.Text" xml:space="preserve">
+    <value>Добавить показ Fake Error</value>
+  </data>
+  <data name="FakeCheckBox.ToolTip" xml:space="preserve">
+    <value>Данный метод будет создавать файл рядом с программой ( и показывать в нём ваше сообщение - типо фейк ошибки )</value>
+  </data>
+  <data name="&gt;&gt;FakeCheckBox.Name" xml:space="preserve">
+    <value>FakeCheckBox</value>
+  </data>
+  <data name="&gt;&gt;FakeCheckBox.Type" xml:space="preserve">
+    <value>ClipPurSEditionBuilder.Design.PurSEBox, ClipSE Builder by r3xq1, Version=0.0.8.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;FakeCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FakeCheckBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="IPLOGCheckBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="IPLOGCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IPLOGCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IPLOGCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 419</value>
+  </data>
+  <data name="IPLOGCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 20</value>
+  </data>
+  <data name="IPLOGCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="IPLOGCheckBox.Text" xml:space="preserve">
+    <value>Добавить отправку на IPLogger</value>
+  </data>
+  <data name="IPLOGCheckBox.ToolTip" xml:space="preserve">
+    <value>Данный метод добавляет отправку данных на сервер IPLogger ( когда запустился билд файла )</value>
+  </data>
+  <data name="&gt;&gt;IPLOGCheckBox.Name" xml:space="preserve">
+    <value>IPLOGCheckBox</value>
+  </data>
+  <data name="&gt;&gt;IPLOGCheckBox.Type" xml:space="preserve">
+    <value>ClipPurSEditionBuilder.Design.PurSEBox, ClipSE Builder by r3xq1, Version=0.0.8.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;IPLOGCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;IPLOGCheckBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="AntiVMCheckBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AntiVMCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AntiVMCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AntiVMCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 236</value>
+  </data>
+  <data name="AntiVMCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 20</value>
+  </data>
+  <data name="AntiVMCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="AntiVMCheckBox.Text" xml:space="preserve">
+    <value>Запретить запуск на виртуалках</value>
+  </data>
+  <data name="AntiVMCheckBox.ToolTip" xml:space="preserve">
+    <value>В папку рядом с которй копируется файл будет создаваться куча левых папок ( для усложнения поиска нашей папки )</value>
+  </data>
+  <data name="&gt;&gt;AntiVMCheckBox.Name" xml:space="preserve">
+    <value>AntiVMCheckBox</value>
+  </data>
+  <data name="&gt;&gt;AntiVMCheckBox.Type" xml:space="preserve">
+    <value>ClipPurSEditionBuilder.Design.PurSEBox, ClipSE Builder by r3xq1, Version=0.0.8.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AntiVMCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AntiVMCheckBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="UacOffCheckBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="UacOffCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UacOffCheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="UacOffCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UacOffCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 393</value>
+  </data>
+  <data name="UacOffCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
+  </data>
+  <data name="UacOffCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="UacOffCheckBox.Text" xml:space="preserve">
+    <value>Отключать UAC</value>
+  </data>
+  <data name="UacOffCheckBox.ToolTip" xml:space="preserve">
+    <value>Данный метод отключает Контроль Учётных Записей Пользователей ( UAC )</value>
+  </data>
+  <data name="&gt;&gt;UacOffCheckBox.Name" xml:space="preserve">
+    <value>UacOffCheckBox</value>
+  </data>
+  <data name="&gt;&gt;UacOffCheckBox.Type" xml:space="preserve">
+    <value>ClipPurSEditionBuilder.Design.PurSEBox, ClipSE Builder by r3xq1, Version=0.0.8.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UacOffCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UacOffCheckBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="TaskMgrOffCheckBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="TaskMgrOffCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TaskMgrOffCheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TaskMgrOffCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TaskMgrOffCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 367</value>
+  </data>
+  <data name="TaskMgrOffCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="TaskMgrOffCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="TaskMgrOffCheckBox.Text" xml:space="preserve">
+    <value>Отключать Диспетчер Задач</value>
+  </data>
+  <data name="TaskMgrOffCheckBox.ToolTip" xml:space="preserve">
+    <value>Данный метод отключает просмотр Диспетчера Задач без каких-либо уведомлений у пользователя</value>
+  </data>
+  <data name="&gt;&gt;TaskMgrOffCheckBox.Name" xml:space="preserve">
+    <value>TaskMgrOffCheckBox</value>
+  </data>
+  <data name="&gt;&gt;TaskMgrOffCheckBox.Type" xml:space="preserve">
+    <value>ClipPurSEditionBuilder.Design.PurSEBox, ClipSE Builder by r3xq1, Version=0.0.8.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TaskMgrOffCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TaskMgrOffCheckBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="SmartOffCheckBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SmartOffCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SmartOffCheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SmartOffCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SmartOffCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 341</value>
+  </data>
+  <data name="SmartOffCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="SmartOffCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="SmartOffCheckBox.Text" xml:space="preserve">
+    <value>Отключать SmartScreen</value>
+  </data>
+  <data name="SmartOffCheckBox.ToolTip" xml:space="preserve">
+    <value>Данный метод позволяет отключить компонент для защиты от фишинга и вредоносного ПО</value>
+  </data>
+  <data name="&gt;&gt;SmartOffCheckBox.Name" xml:space="preserve">
+    <value>SmartOffCheckBox</value>
+  </data>
+  <data name="&gt;&gt;SmartOffCheckBox.Type" xml:space="preserve">
+    <value>ClipPurSEditionBuilder.Design.PurSEBox, ClipSE Builder by r3xq1, Version=0.0.8.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SmartOffCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SmartOffCheckBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="AutoRunCheckBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AutoRunCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AutoRunCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AutoRunCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 315</value>
+  </data>
+  <data name="AutoRunCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 20</value>
+  </data>
+  <data name="AutoRunCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="AutoRunCheckBox.Text" xml:space="preserve">
+    <value>Добавить в автозагрузку</value>
+  </data>
+  <data name="AutoRunCheckBox.ToolTip" xml:space="preserve">
+    <value>Добавляет Ваш Билд-файл в автозагрузку windows
+( От имени Администратора - Добавление в Планировщик Задач ) [New]
+( От имени Пользователя - Добавление в Реестр  )
+</value>
+  </data>
+  <data name="&gt;&gt;AutoRunCheckBox.Name" xml:space="preserve">
+    <value>AutoRunCheckBox</value>
+  </data>
+  <data name="&gt;&gt;AutoRunCheckBox.Type" xml:space="preserve">
+    <value>ClipPurSEditionBuilder.Design.PurSEBox, ClipSE Builder by r3xq1, Version=0.0.8.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AutoRunCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AutoRunCheckBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="GarbageCheckBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GarbageCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GarbageCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GarbageCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 290</value>
+  </data>
+  <data name="GarbageCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
+  </data>
+  <data name="GarbageCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="GarbageCheckBox.Text" xml:space="preserve">
+    <value>Добавить мусор в систему</value>
+  </data>
+  <data name="GarbageCheckBox.ToolTip" xml:space="preserve">
+    <value>В папку рядом с которй копируется файл будет создаваться куча левых папок ( для усложнения поиска нашей папки )</value>
+  </data>
+  <data name="&gt;&gt;GarbageCheckBox.Name" xml:space="preserve">
+    <value>GarbageCheckBox</value>
+  </data>
+  <data name="&gt;&gt;GarbageCheckBox.Type" xml:space="preserve">
+    <value>ClipPurSEditionBuilder.Design.PurSEBox, ClipSE Builder by r3xq1, Version=0.0.8.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GarbageCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GarbageCheckBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="DelayCheckBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="DelayCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DelayCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DelayCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 263</value>
+  </data>
+  <data name="DelayCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 20</value>
+  </data>
+  <data name="DelayCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="DelayCheckBox.Text" xml:space="preserve">
+    <value>Делать задержку перед запуском</value>
+  </data>
+  <data name="DelayCheckBox.ToolTip" xml:space="preserve">
+    <value>Данный метод добавляет перед запуском файла небольшую задержку.</value>
+  </data>
+  <data name="&gt;&gt;DelayCheckBox.Name" xml:space="preserve">
+    <value>DelayCheckBox</value>
+  </data>
+  <data name="&gt;&gt;DelayCheckBox.Type" xml:space="preserve">
+    <value>ClipPurSEditionBuilder.Design.PurSEBox, ClipSE Builder by r3xq1, Version=0.0.8.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DelayCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DelayCheckBox.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <metadata name="AdminCheckBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AdminCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AdminCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AdminCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 209</value>
+  </data>
+  <data name="AdminCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 20</value>
+  </data>
+  <data name="AdminCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="AdminCheckBox.Text" xml:space="preserve">
+    <value>Запуск от имени Администратора</value>
+  </data>
+  <data name="AdminCheckBox.ToolTip" xml:space="preserve">
+    <value>Данный метод позволит запустить Ваш Билд-файл c правами Администратора</value>
+  </data>
+  <data name="&gt;&gt;AdminCheckBox.Name" xml:space="preserve">
+    <value>AdminCheckBox</value>
+  </data>
+  <data name="&gt;&gt;AdminCheckBox.Type" xml:space="preserve">
+    <value>ClipPurSEditionBuilder.Design.PurSEBox, ClipSE Builder by r3xq1, Version=0.0.8.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AdminCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AdminCheckBox.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <metadata name="ShowNewAutoRunLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ShowNewAutoRunLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ShowNewAutoRunLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="ShowNewAutoRunLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowNewAutoRunLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 319</value>
+  </data>
+  <data name="ShowNewAutoRunLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 14</value>
+  </data>
+  <data name="ShowNewAutoRunLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="ShowNewAutoRunLabel.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="ShowNewAutoRunLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ShowNewAutoRunLabel.Name" xml:space="preserve">
+    <value>ShowNewAutoRunLabel</value>
+  </data>
+  <data name="&gt;&gt;ShowNewAutoRunLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowNewAutoRunLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowNewAutoRunLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="ErrorText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ErrorText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ErrorText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="ErrorText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ErrorText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 82</value>
+  </data>
+  <data name="ErrorText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 14</value>
+  </data>
+  <data name="ErrorText.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="ErrorText.Text" xml:space="preserve">
+    <value>Текст ошибки:</value>
+  </data>
+  <data name="ErrorText.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ErrorText.Name" xml:space="preserve">
+    <value>ErrorText</value>
+  </data>
+  <data name="&gt;&gt;ErrorText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ErrorText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ErrorText.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SpisokOut.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="SpisokOut.Items" xml:space="preserve">
+    <value>.exe</value>
+  </data>
+  <data name="SpisokOut.Items1" xml:space="preserve">
+    <value>.dll</value>
+  </data>
+  <data name="SpisokOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 417</value>
+  </data>
+  <data name="SpisokOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 21</value>
+  </data>
+  <data name="SpisokOut.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="&gt;&gt;SpisokOut.Name" xml:space="preserve">
+    <value>SpisokOut</value>
+  </data>
+  <data name="&gt;&gt;SpisokOut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SpisokOut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SpisokOut.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ExtensionText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ExtensionText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="ExtensionText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ExtensionText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 420</value>
+  </data>
+  <data name="ExtensionText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 14</value>
+  </data>
+  <data name="ExtensionText.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="ExtensionText.Text" xml:space="preserve">
+    <value>Выходное расширение:</value>
+  </data>
+  <data name="&gt;&gt;ExtensionText.Name" xml:space="preserve">
+    <value>ExtensionText</value>
+  </data>
+  <data name="&gt;&gt;ExtensionText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExtensionText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ExtensionText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>906, 450</value>
+  </data>
+  <data name="&gt;&gt;ShowHelperBuildSE.Name" xml:space="preserve">
+    <value>ShowHelperBuildSE</value>
+  </data>
+  <data name="&gt;&gt;ShowHelperBuildSE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BuildSE</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

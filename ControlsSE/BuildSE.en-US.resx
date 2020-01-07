@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="InfoText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 14</value>
+  </data>
+  <data name="InfoText.Text" xml:space="preserve">
+    <value>Create build file</value>
+  </data>
+  <data name="LinePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 1</value>
+  </data>
+  <data name="IconText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 14</value>
+  </data>
+  <data name="IconText.Text" xml:space="preserve">
+    <value>Path to the icon:</value>
+  </data>
+  <data name="IcoPath.ToolTip" xml:space="preserve">
+    <value>Full path to icon</value>
+  </data>
+  <data name="BuildText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 14</value>
+  </data>
+  <data name="BuildText.Text" xml:space="preserve">
+    <value>Build name:</value>
+  </data>
+  <data name="NameOutput.ToolTip" xml:space="preserve">
+    <value>Name of your build file</value>
+  </data>
+  <data name="Generation.Text" xml:space="preserve">
+    <value>Create Build</value>
+  </data>
+  <data name="IPBox.ToolTip" xml:space="preserve">
+    <value>Example: https://maper.info/XoEm9</value>
+  </data>
+  <data name="GenAss.Text" xml:space="preserve">
+    <value>Generate properties for build file</value>
+  </data>
+  <data name="HelperIPLogger.ToolTip" xml:space="preserve">
+    <value>Follow the link to the iplogger service</value>
+  </data>
+  <data name="ErrorBox.ToolTip" xml:space="preserve">
+    <value>Enter any text in this field, it will be displayed in the text file as an error.</value>
+  </data>
+  <data name="ShowNewAutoRunLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 318</value>
+  </data>
+  <data name="ErrorText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 14</value>
+  </data>
+  <data name="ErrorText.Text" xml:space="preserve">
+    <value>Error text:</value>
+  </data>
+  <data name="ExtensionText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 420</value>
+  </data>
+  <data name="ExtensionText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 14</value>
+  </data>
+  <data name="ExtensionText.Text" xml:space="preserve">
+    <value>Output expansion:</value>
+  </data>
+  <data name="FakeCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="FakeCheckBox.Text" xml:space="preserve">
+    <value>Add show Fake Error</value>
+  </data>
+  <data name="FakeCheckBox.ToolTip" xml:space="preserve">
+    <value>This method will create file alongside program ( and show in it your message-as like, fake mistakes )</value>
+  </data>
+  <data name="IPLOGCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 20</value>
+  </data>
+  <data name="IPLOGCheckBox.Text" xml:space="preserve">
+    <value>Add sending to IPLogger</value>
+  </data>
+  <data name="IPLOGCheckBox.ToolTip" xml:space="preserve">
+    <value>This method adds sending data to the iplogger server ( when the file build was started )</value>
+  </data>
+  <data name="AntiVMCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 20</value>
+  </data>
+  <data name="AntiVMCheckBox.Text" xml:space="preserve">
+    <value>Prevent running on virtual machines</value>
+  </data>
+  <data name="AntiVMCheckBox.ToolTip" xml:space="preserve">
+    <value>In the folder where the copied file will be created heap of the left folders ( to make it difficult to search our folders )</value>
+  </data>
+  <data name="UacOffCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="UacOffCheckBox.Text" xml:space="preserve">
+    <value>Disable UAC</value>
+  </data>
+  <data name="UacOffCheckBox.ToolTip" xml:space="preserve">
+    <value>This method disables User Account Control ( UAC )</value>
+  </data>
+  <data name="TaskMgrOffCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 20</value>
+  </data>
+  <data name="TaskMgrOffCheckBox.Text" xml:space="preserve">
+    <value>Disable Task Manager</value>
+  </data>
+  <data name="TaskMgrOffCheckBox.ToolTip" xml:space="preserve">
+    <value>This method disables viewing the Task Manager without notifying the user</value>
+  </data>
+  <data name="SmartOffCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 20</value>
+  </data>
+  <data name="SmartOffCheckBox.Text" xml:space="preserve">
+    <value>Disable SmartScreen</value>
+  </data>
+  <data name="SmartOffCheckBox.ToolTip" xml:space="preserve">
+    <value>This method allows you to disable the anti-phishing and anti-malware component</value>
+  </data>
+  <data name="AutoRunCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="AutoRunCheckBox.Text" xml:space="preserve">
+    <value>Add to startup</value>
+  </data>
+  <data name="AutoRunCheckBox.ToolTip" xml:space="preserve">
+    <value>Adds your Build file to Windows startup
+( As Administrator-Add to Task Scheduler) [New]
+( On behalf of the User-Adding to the Registry  )</value>
+  </data>
+  <data name="GarbageCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="GarbageCheckBox.Text" xml:space="preserve">
+    <value>Add garbage to the system</value>
+  </data>
+  <data name="GarbageCheckBox.ToolTip" xml:space="preserve">
+    <value>In the folder where the copied file will be created heap of the left folders ( to make it difficult to search our folders )</value>
+  </data>
+  <data name="DelayCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 20</value>
+  </data>
+  <data name="DelayCheckBox.Text" xml:space="preserve">
+    <value>Make delay before start</value>
+  </data>
+  <data name="DelayCheckBox.ToolTip" xml:space="preserve">
+    <value>This method adds a small delay before starting the file.</value>
+  </data>
+  <data name="AdminCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="AdminCheckBox.Text" xml:space="preserve">
+    <value>Run as Administrator</value>
+  </data>
+  <data name="AdminCheckBox.ToolTip" xml:space="preserve">
+    <value>This method allows you to run your Build file as an Administrator</value>
+  </data>
+</root>
