@@ -1,0 +1,2307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="AdaText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="EtherBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="&gt;&gt;DashText.Name" xml:space="preserve">
+    <value>DashText</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LinePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="EtherText.TabIndex" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="&gt;&gt;QutumText.Name" xml:space="preserve">
+    <value>QutumText</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SaveBoxs.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="RippleBox.ToolTip" xml:space="preserve">
+    <value>Пример: rGEnUeZd7FXJTmr8BiwqNCPJFp8MeNqtM</value>
+  </data>
+  <data name="LiteBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="BitcoinText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MoneroText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;WavesBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MoneroText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 362</value>
+  </data>
+  <data name="BitGoldBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;DashText.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="EtherBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;QiwiText.Name" xml:space="preserve">
+    <value>QiwiText</value>
+  </data>
+  <data name="QutumText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LiskText.Name" xml:space="preserve">
+    <value>LiskText</value>
+  </data>
+  <data name="IotaText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 14</value>
+  </data>
+  <data name="IotaText.Text" xml:space="preserve">
+    <value>Iotacoin:</value>
+  </data>
+  <data name="PayeerBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="MoneroText.Text" xml:space="preserve">
+    <value>Monero(xmr):</value>
+  </data>
+  <data name="AdaBox.ToolTip" xml:space="preserve">
+    <value>Пример: DdzFFzCqrht3qMR1KTc4cE3wsgZWew9q4RypjuHg2kjtUUApvVDzPA4g1SDxsJCJKuPKRRqUevkFvuSgu9GTnfgYkUtypCKEv9HB6jS4</value>
+  </data>
+  <data name="DonAlertBox.ToolTip" xml:space="preserve">
+    <value>Пример: https://www.donationalerts.com/r/login -  (login - это Ваш логин )</value>
+  </data>
+  <data name="&gt;&gt;LoadBoxs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LoadBoxs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>767, 422</value>
+  </data>
+  <data name="QiwiText.Text" xml:space="preserve">
+    <value>Qiwi:</value>
+  </data>
+  <data name="TronText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;BnbText.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;IotaText.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="BytecoinBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;QiwiText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RippleBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="TronBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 359</value>
+  </data>
+  <data name="BlockNeText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;TronText.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;IotaText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BlockNetBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;QiwiBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="StellarText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 14</value>
+  </data>
+  <data name="BlackJackText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EtherBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LiteBox.Name" xml:space="preserve">
+    <value>LiteBox</value>
+  </data>
+  <data name="CreateBuilLogo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LiteText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 181</value>
+  </data>
+  <data name="LinePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 27</value>
+  </data>
+  <data name="&gt;&gt;BlackJackText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BitcoinText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LiteText.TabIndex" type="System.Int32, mscorlib">
+    <value>182</value>
+  </data>
+  <data name="&gt;&gt;AdaText.Name" xml:space="preserve">
+    <value>AdaText</value>
+  </data>
+  <data name="&gt;&gt;RippleBox.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="FieldsClean.TabIndex" type="System.Int32, mscorlib">
+    <value>215</value>
+  </data>
+  <data name="StellarText.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="&gt;&gt;NeoText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WavesText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 14</value>
+  </data>
+  <data name="&gt;&gt;LiskBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlockNeText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DashBox.Name" xml:space="preserve">
+    <value>DashBox</value>
+  </data>
+  <data name="DonAlertBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="BitGoldBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 126</value>
+  </data>
+  <data name="QutumText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 52</value>
+  </data>
+  <data name="&gt;&gt;YaText.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="TronBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="EtherText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="BlockNetBox.ToolTip" xml:space="preserve">
+    <value>Пример: BdnF8c3znwg51zomfz3zLUUzP8faW9GX7a</value>
+  </data>
+  <data name="&gt;&gt;NeoBox.Name" xml:space="preserve">
+    <value>NeoBox</value>
+  </data>
+  <data name="PayeerBox.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="&gt;&gt;LinePanel.Name" xml:space="preserve">
+    <value>LinePanel</value>
+  </data>
+  <data name="&gt;&gt;IotaBox.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="BitCashText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BytecoinText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 181</value>
+  </data>
+  <data name="&gt;&gt;LiskText.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="QiwiText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 14</value>
+  </data>
+  <data name="LoadBoxs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="BitGoldText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 14</value>
+  </data>
+  <data name="LoadBoxs.TabIndex" type="System.Int32, mscorlib">
+    <value>214</value>
+  </data>
+  <data name="BytecoinBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="LiskText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DashText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DonaText.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="&gt;&gt;XmrBox.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;DashBox.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;DogeText.Name" xml:space="preserve">
+    <value>DogeText</value>
+  </data>
+  <data name="&gt;&gt;TronBox.Name" xml:space="preserve">
+    <value>TronBox</value>
+  </data>
+  <data name="&gt;&gt;BitcoinText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RippleBox.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="QutumText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="BitDarkText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 78</value>
+  </data>
+  <data name="BitGoldText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;BitCashText.Name" xml:space="preserve">
+    <value>BitCashText</value>
+  </data>
+  <data name="BitcointBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="IotaBox.ToolTip" xml:space="preserve">
+    <value>Пример: ORXGQZZCCGCUW9FICMHULRUAQOULKSVJSQZVA9HLZUVCRJKSRHQTXYDUWRXKPTWIYJIAFVOLW9QQRKPC9XTC9ORFAX</value>
+  </data>
+  <data name="ZcashBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="LiskText.TabIndex" type="System.Int32, mscorlib">
+    <value>202</value>
+  </data>
+  <data name="QutumText.Text" xml:space="preserve">
+    <value>Qtum:</value>
+  </data>
+  <data name="&gt;&gt;NeoBox.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="BinanceBox.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="StellarBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;BitCashText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DashText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="YaText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 14</value>
+  </data>
+  <data name="MoneroText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;PayeerText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlackjackBox.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="ZcashText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 14</value>
+  </data>
+  <data name="DonaText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TronText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BytecoinBox.ToolTip" xml:space="preserve">
+    <value>Пример: 28AbxE53352EzkbVvZccUNN6N5X7RC4w7SSuSzazJnASZQLcFFVcBhy8Pew9g3Njb75Lh9EV9pwZheu376kWftjGTpX8XFv</value>
+  </data>
+  <data name="&gt;&gt;CreateBuilLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EtherBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 101</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>WalletSE</value>
+  </data>
+  <data name="BitCashBox.ToolTip" xml:space="preserve">
+    <value>Пример: 1MjJEkxXRnGqD8WuzTvpHMzcMuQLTEqmVp</value>
+  </data>
+  <data name="&gt;&gt;EtherText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LinePanel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="RippleBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="BlockNeText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;ZcashBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TronBox.ToolTip" xml:space="preserve">
+    <value>Пример: TMzj3HsA5Z7H3Cuzriv3KLsL5PL2WZyyo8</value>
+  </data>
+  <data name="TronBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AdaText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AdaBox.TabIndex" type="System.Int32, mscorlib">
+    <value>199</value>
+  </data>
+  <data name="&gt;&gt;ZcashText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DonaText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;QtumBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;YandexBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="NeoText.TabIndex" type="System.Int32, mscorlib">
+    <value>186</value>
+  </data>
+  <data name="BlackJackText.Text" xml:space="preserve">
+    <value>BlackJack:</value>
+  </data>
+  <data name="&gt;&gt;YaText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BytecoinText.Text" xml:space="preserve">
+    <value>Bytecoin:</value>
+  </data>
+  <data name="YaText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;DarkBitcoinBox.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="BlackjackBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="&gt;&gt;SaveBoxs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FieldsClean.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BitcointBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;IotaBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="PayeerText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 336</value>
+  </data>
+  <data name="EosText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 14</value>
+  </data>
+  <data name="IotaBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="QtumBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AdaBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="&gt;&gt;CreateBuilLogo.Name" xml:space="preserve">
+    <value>CreateBuilLogo</value>
+  </data>
+  <data name="BitcointBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="BitDarkText.Text" xml:space="preserve">
+    <value>BitcoinDark:</value>
+  </data>
+  <data name="&gt;&gt;LiskBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WavesText.Name" xml:space="preserve">
+    <value>WavesText</value>
+  </data>
+  <data name="LiteText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;XmrBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BytecoinText.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="EtherText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BinanceBox.ToolTip" xml:space="preserve">
+    <value>Пример: bnb1ya9ugn0kk2dfk2xdtahtf3caxtfrcr2g940llp</value>
+  </data>
+  <data name="NeoText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 14</value>
+  </data>
+  <data name="MoneroText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 14</value>
+  </data>
+  <data name="&gt;&gt;XmrBox.Name" xml:space="preserve">
+    <value>XmrBox</value>
+  </data>
+  <data name="TronBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="RippleText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 233</value>
+  </data>
+  <data name="BlackJackText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;QiwiText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="StellarBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 385</value>
+  </data>
+  <data name="YaText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DogeBox.Name" xml:space="preserve">
+    <value>DogeBox</value>
+  </data>
+  <data name="&gt;&gt;DashBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BlackJackText.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;PayeerText.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;BitDarkText.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="ShowMessage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="IotaText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 284</value>
+  </data>
+  <data name="BlackjackBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 204</value>
+  </data>
+  <data name="WavesText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;TronText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DonaText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BlockNetBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 230</value>
+  </data>
+  <data name="&gt;&gt;MoneroText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EosText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ZcashText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="EosBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 126</value>
+  </data>
+  <data name="FieldsClean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 422</value>
+  </data>
+  <data name="EtherBox.TabIndex" type="System.Int32, mscorlib">
+    <value>179</value>
+  </data>
+  <data name="LiteBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="BitcoinText.Text" xml:space="preserve">
+    <value>Bitcoin:</value>
+  </data>
+  <data name="PayeerBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;ZcashBox.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="BlockNeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 233</value>
+  </data>
+  <data name="YaText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 388</value>
+  </data>
+  <data name="BlackJackText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="DashText.Text" xml:space="preserve">
+    <value>Dashcoin:</value>
+  </data>
+  <data name="&gt;&gt;StellarText.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="WavesBox.ToolTip" xml:space="preserve">
+    <value>Пример: 3P8a5gTncvVtCjySJ5JhwLCp61U83U9JvjA</value>
+  </data>
+  <data name="LiteText.Text" xml:space="preserve">
+    <value>Litecoin:</value>
+  </data>
+  <data name="BitGoldBox.ToolTip" xml:space="preserve">
+    <value>Пример: GLxc3eoNZR4MQqg2rseus5SEqVT2TjxYhp</value>
+  </data>
+  <data name="ZcashText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LiteText.Name" xml:space="preserve">
+    <value>LiteText</value>
+  </data>
+  <data name="AdaText.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="StellarText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 388</value>
+  </data>
+  <data name="&gt;&gt;StellarBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StellarBox.Name" xml:space="preserve">
+    <value>StellarBox</value>
+  </data>
+  <data name="&gt;&gt;PayeerBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BitDarkText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 14</value>
+  </data>
+  <data name="BitcoinText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;WavesBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="NeoText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 336</value>
+  </data>
+  <data name="BitGoldBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="BinanceBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="YandexBox.ToolTip" xml:space="preserve">
+    <value>Пример: 410017085752949</value>
+  </data>
+  <data name="QiwiBox.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="BitGoldBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DashBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="BitCashText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 104</value>
+  </data>
+  <data name="LiskBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 152</value>
+  </data>
+  <data name="BytecoinText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EosBox.ToolTip" xml:space="preserve">
+    <value>Пример:  yjez3hcw1mj4</value>
+  </data>
+  <data name="BitcoinText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;RippleBox.Name" xml:space="preserve">
+    <value>RippleBox</value>
+  </data>
+  <data name="&gt;&gt;BitGoldBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FieldsClean.Name" xml:space="preserve">
+    <value>FieldsClean</value>
+  </data>
+  <data name="&gt;&gt;QiwiText.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="PayeerText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;BytecoinText.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="EtherText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DashText.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="&gt;&gt;MoneroText.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;AddDataToBuilder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QtumBox.Name" xml:space="preserve">
+    <value>QtumBox</value>
+  </data>
+  <data name="BlackJackText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 14</value>
+  </data>
+  <data name="IotaBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="DonaText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 309</value>
+  </data>
+  <data name="BytecoinBox.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="&gt;&gt;TronText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NeoText.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="BlackJackText.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="&gt;&gt;BlackjackBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LiskBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="&gt;&gt;BlackJackText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TronBox.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;WavesText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ZcashText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BytecoinBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 178</value>
+  </data>
+  <data name="&gt;&gt;BlackJackText.Name" xml:space="preserve">
+    <value>BlackJackText</value>
+  </data>
+  <data name="LiskText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 154</value>
+  </data>
+  <data name="&gt;&gt;QtumBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BitcointBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 49</value>
+  </data>
+  <data name="LoadBoxs.Text" xml:space="preserve">
+    <value>Загрузить данные</value>
+  </data>
+  <data name="StellarBox.TabIndex" type="System.Int32, mscorlib">
+    <value>173</value>
+  </data>
+  <data name="BinanceBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LiskText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 14</value>
+  </data>
+  <data name="QiwiText.TabIndex" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="DonAlertBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="DogeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 14</value>
+  </data>
+  <data name="NeoBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;BitGoldBox.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;QiwiBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowHelperWalletSE.Name" xml:space="preserve">
+    <value>ShowHelperWalletSE</value>
+  </data>
+  <data name="&gt;&gt;PayeerBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;QutumText.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="NeoText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LiskBox.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="BitcointBox.ToolTip" xml:space="preserve">
+    <value>Пример: 1G9xgkjBiPLUbfVWERY1Ub7Bj753jP9Lkt</value>
+  </data>
+  <data name="DonaText.Text" xml:space="preserve">
+    <value>DonAlerts:</value>
+  </data>
+  <data name="PayeerText.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="&gt;&gt;ZcashText.Name" xml:space="preserve">
+    <value>ZcashText</value>
+  </data>
+  <data name="FieldsClean.Text" xml:space="preserve">
+    <value>Очистить все поля</value>
+  </data>
+  <data name="&gt;&gt;DogeBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BitDarkText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="SaveBoxs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 422</value>
+  </data>
+  <data name="&gt;&gt;AddDataToBuilder.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TronText.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="IotaBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="EosBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="QiwiBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;BytecoinBox.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="DashBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;DonaText.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;YandexBox.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="WavesBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;YaText.Name" xml:space="preserve">
+    <value>YaText</value>
+  </data>
+  <data name="BnbText.Text" xml:space="preserve">
+    <value>Binance:</value>
+  </data>
+  <data name="&gt;&gt;BitCashBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WavesBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 204</value>
+  </data>
+  <data name="DashText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DogeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 284</value>
+  </data>
+  <data name="DashText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 258</value>
+  </data>
+  <data name="CreateBuilLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 9</value>
+  </data>
+  <data name="&gt;&gt;CreateBuilLogo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="YandexBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 385</value>
+  </data>
+  <data name="&gt;&gt;EtherText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LiteBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BitCashText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="BitDarkText.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="NeoBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="IotaText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="ShowMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>588, 19</value>
+  </data>
+  <data name="DarkBitcoinBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 75</value>
+  </data>
+  <data name="FieldsClean.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;BlockNeText.Name" xml:space="preserve">
+    <value>BlockNeText</value>
+  </data>
+  <data name="&gt;&gt;EosText.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="StellarBox.ToolTip" xml:space="preserve">
+    <value>Пример: GBUAPGUXP3DJ7HPV2J2KK3MUQF7DWBM6EWUTRGBINDHIAC67LJ4UMDTV</value>
+  </data>
+  <data name="PayeerBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 333</value>
+  </data>
+  <data name="LiskBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;IotaText.Name" xml:space="preserve">
+    <value>IotaText</value>
+  </data>
+  <data name="DarkBitcoinBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;BlockNetBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="QtumBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="ZcashBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="EtherText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 104</value>
+  </data>
+  <data name="&gt;&gt;WavesText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>906, 450</value>
+  </data>
+  <data name="&gt;&gt;DonAlertBox.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;BitDarkText.Name" xml:space="preserve">
+    <value>BitDarkText</value>
+  </data>
+  <data name="BitGoldText.Text" xml:space="preserve">
+    <value>BitcoinGold:</value>
+  </data>
+  <data name="BitCashBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="WavesText.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="MoneroText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;BitCashBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EosBox.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="EosText.TabIndex" type="System.Int32, mscorlib">
+    <value>192</value>
+  </data>
+  <data name="IotaBox.TabIndex" type="System.Int32, mscorlib">
+    <value>197</value>
+  </data>
+  <data name="&gt;&gt;LiteBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BitCashBox.TabIndex" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="DonAlertBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RippleBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;StellarText.Name" xml:space="preserve">
+    <value>StellarText</value>
+  </data>
+  <data name="NeoBox.TabIndex" type="System.Int32, mscorlib">
+    <value>185</value>
+  </data>
+  <data name="&gt;&gt;BlockNeText.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;MoneroText.Name" xml:space="preserve">
+    <value>MoneroText</value>
+  </data>
+  <data name="LiteText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 14</value>
+  </data>
+  <data name="AddDataToBuilder.TabIndex" type="System.Int32, mscorlib">
+    <value>211</value>
+  </data>
+  <data name="&gt;&gt;DonAlertBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DogeText.Text" xml:space="preserve">
+    <value>Dogecoin:</value>
+  </data>
+  <data name="RippleBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 230</value>
+  </data>
+  <data name="&gt;&gt;YaText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EtherText.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="StellarText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;BytecoinBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RippleText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 14</value>
+  </data>
+  <data name="CreateBuilLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;PayeerText.Name" xml:space="preserve">
+    <value>PayeerText</value>
+  </data>
+  <data name="StellarBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AddDataToBuilder.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="RippleText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="StellarText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DonAlertBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 307</value>
+  </data>
+  <data name="StellarBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="WavesText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CreateBuilLogo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="QiwiText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="WavesText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 207</value>
+  </data>
+  <data name="IotaText.TabIndex" type="System.Int32, mscorlib">
+    <value>198</value>
+  </data>
+  <data name="BlockNeText.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="&gt;&gt;StellarBox.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;YandexBox.Name" xml:space="preserve">
+    <value>YandexBox</value>
+  </data>
+  <data name="QiwiText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BitCashBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="&gt;&gt;IotaText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LoadBoxs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AdaText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DashText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 14</value>
+  </data>
+  <data name="&gt;&gt;DogeText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BitCashBox.Name" xml:space="preserve">
+    <value>BitCashBox</value>
+  </data>
+  <data name="&gt;&gt;DonAlertBox.Name" xml:space="preserve">
+    <value>DonAlertBox</value>
+  </data>
+  <data name="StellarText.Text" xml:space="preserve">
+    <value>Stellar(xml):</value>
+  </data>
+  <data name="&gt;&gt;ZcashText.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="DogeText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;TronBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DashText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;IotaBox.Name" xml:space="preserve">
+    <value>IotaBox</value>
+  </data>
+  <data name="StellarText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="XmrBox.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="BitcointBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;BnbText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TronBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="IotaText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LiskBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="BinanceBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;BitDarkText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EtherText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 14</value>
+  </data>
+  <data name="BitCashText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 14</value>
+  </data>
+  <data name="QutumText.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="&gt;&gt;DarkBitcoinBox.Name" xml:space="preserve">
+    <value>DarkBitcoinBox</value>
+  </data>
+  <data name="BitDarkText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;FieldsClean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LiteBox.ToolTip" xml:space="preserve">
+    <value>Пример: LfvsU5Nxx366NKAZpBiUEjbSvuBsvU1X6Y</value>
+  </data>
+  <data name="&gt;&gt;ZcashBox.Name" xml:space="preserve">
+    <value>ZcashBox</value>
+  </data>
+  <data name="&gt;&gt;BitCashBox.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;DarkBitcoinBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DogeText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlackjackBox.Name" xml:space="preserve">
+    <value>BlackjackBox</value>
+  </data>
+  <data name="EosBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;BinanceBox.Name" xml:space="preserve">
+    <value>BinanceBox</value>
+  </data>
+  <data name="&gt;&gt;BlackjackBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BlackJackText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 207</value>
+  </data>
+  <data name="&gt;&gt;BinanceBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="XmrBox.ToolTip" xml:space="preserve">
+    <value>Пример: 48tVhprhtPAM8JRbaAySysSXmwuNNS3oGX9cfawfDy1kaJdaRk76cRtG2Dt7MEQN7LgRqwCpGzCgoTmP1DnzYqXZAAPLFZqм</value>
+  </data>
+  <data name="&gt;&gt;BitcointBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LiskText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ZcashBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EtherText.Name" xml:space="preserve">
+    <value>EtherText</value>
+  </data>
+  <data name="QiwiBox.ToolTip" xml:space="preserve">
+    <value>Пример: 89189854319</value>
+  </data>
+  <data name="&gt;&gt;DonaText.Name" xml:space="preserve">
+    <value>DonaText</value>
+  </data>
+  <data name="&gt;&gt;LiteText.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;DarkBitcoinBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QutumText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DogeBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;EosBox.Name" xml:space="preserve">
+    <value>EosBox</value>
+  </data>
+  <data name="BnbText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 154</value>
+  </data>
+  <data name="&gt;&gt;StellarBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="YaText.Text" xml:space="preserve">
+    <value>Yandex money:</value>
+  </data>
+  <data name="DogeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="LiskBox.ToolTip" xml:space="preserve">
+    <value>Пример: 11640058110635876848L</value>
+  </data>
+  <data name="BlackjackBox.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="&gt;&gt;FieldsClean.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BlackjackBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="YandexBox.TabIndex" type="System.Int32, mscorlib">
+    <value>193</value>
+  </data>
+  <data name="&gt;&gt;DonaText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ShowMessage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="YandexBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="QtumBox.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="DogeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 281</value>
+  </data>
+  <data name="&gt;&gt;BytecoinBox.Name" xml:space="preserve">
+    <value>BytecoinBox</value>
+  </data>
+  <data name="DogeBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="PayeerBox.ToolTip" xml:space="preserve">
+    <value>Пример: P1013357249</value>
+  </data>
+  <data name="&gt;&gt;BinanceBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="YandexBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="&gt;&gt;BitGoldBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LiskBox.Name" xml:space="preserve">
+    <value>LiskBox</value>
+  </data>
+  <data name="DonAlertBox.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="QiwiBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 75</value>
+  </data>
+  <data name="BnbText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FieldsClean.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;SaveBoxs.Name" xml:space="preserve">
+    <value>SaveBoxs</value>
+  </data>
+  <data name="EosText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="XmrBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="ZcashBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 307</value>
+  </data>
+  <data name="&gt;&gt;QiwiBox.Name" xml:space="preserve">
+    <value>QiwiBox</value>
+  </data>
+  <data name="&gt;&gt;BitGoldText.Name" xml:space="preserve">
+    <value>BitGoldText</value>
+  </data>
+  <data name="QiwiText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NeoText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="QtumBox.ToolTip" xml:space="preserve">
+    <value>Пример: QQf8azAwY8jftezAJbdifjupY5e7kNse51</value>
+  </data>
+  <data name="TronBox.TabIndex" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="&gt;&gt;LinePanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BitDarkText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BlockNeText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="YaText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DogeBox.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="AddDataToBuilder.Text" xml:space="preserve">
+    <value>Добавить данные в билдер</value>
+  </data>
+  <data name="BitCashBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 101</value>
+  </data>
+  <data name="YandexBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;EtherBox.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="BnbText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;LiteText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BinanceBox.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="BitGoldText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;StellarText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EosBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LiskText.Text" xml:space="preserve">
+    <value>Liskcoin:</value>
+  </data>
+  <data name="BitGoldText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BitcointBox.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="TronText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 362</value>
+  </data>
+  <data name="MoneroText.TabIndex" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="&gt;&gt;EosBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QutumText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TronText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 14</value>
+  </data>
+  <data name="&gt;&gt;LoadBoxs.Name" xml:space="preserve">
+    <value>LoadBoxs</value>
+  </data>
+  <data name="ZcashText.Text" xml:space="preserve">
+    <value>Zcash:</value>
+  </data>
+  <data name="DogeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
+  </data>
+  <data name="NeoBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 333</value>
+  </data>
+  <data name="SaveBoxs.Text" xml:space="preserve">
+    <value>Сохранить данные</value>
+  </data>
+  <data name="&gt;&gt;BitcoinText.Name" xml:space="preserve">
+    <value>BitcoinText</value>
+  </data>
+  <data name="RippleText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CreateBuilLogo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PayeerText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;PayeerText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BytecoinText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateBuilLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BitGoldText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdaBox.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;AddDataToBuilder.Name" xml:space="preserve">
+    <value>AddDataToBuilder</value>
+  </data>
+  <data name="BytecoinBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="DogeBox.ToolTip" xml:space="preserve">
+    <value>Пример: D9DpxRaYzVJaWY6tG1sd6aY8m1o3nakymE</value>
+  </data>
+  <data name="&gt;&gt;BnbText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LiskText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="QtumBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 49</value>
+  </data>
+  <data name="BitCashText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DogeText.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="EosText.Text" xml:space="preserve">
+    <value>EOS:</value>
+  </data>
+  <data name="&gt;&gt;DonAlertBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EosBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="LiskBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;BitcointBox.Name" xml:space="preserve">
+    <value>BitcointBox</value>
+  </data>
+  <data name="NeoBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AdaBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BlockNetBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="ZcashBox.TabIndex" type="System.Int32, mscorlib">
+    <value>183</value>
+  </data>
+  <data name="AddDataToBuilder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 5</value>
+  </data>
+  <data name="&gt;&gt;QutumText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="NeoText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BlockNeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 14</value>
+  </data>
+  <data name="&gt;&gt;RippleText.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="PayeerText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LiteBox.TabIndex" type="System.Int32, mscorlib">
+    <value>181</value>
+  </data>
+  <data name="EosBox.TabIndex" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="EosText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="DashBox.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="&gt;&gt;ShowHelperWalletSE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BitGoldText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 129</value>
+  </data>
+  <data name="IotaText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BnbText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BytecoinBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SaveBoxs.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RippleText.Text" xml:space="preserve">
+    <value>Ripple(xrp):</value>
+  </data>
+  <data name="ZcashBox.ToolTip" xml:space="preserve">
+    <value>Пример: t1KgjFaNWQsUDB8NPtz1MMUPPYrh4x51VSe</value>
+  </data>
+  <data name="&gt;&gt;BitcointBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BitGoldText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="PayeerBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SaveBoxs.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DogeBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="PayeerText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 14</value>
+  </data>
+  <data name="ZcashText.TabIndex" type="System.Int32, mscorlib">
+    <value>184</value>
+  </data>
+  <data name="PayeerText.Text" xml:space="preserve">
+    <value>Payeer:</value>
+  </data>
+  <data name="LoadBoxs.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ShowMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LiskText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="BlockNetBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;RippleText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="XmrBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 359</value>
+  </data>
+  <data name="QtumBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;DashBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RippleBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StellarText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="XmrBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="ZcashBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="AdaBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;BitGoldText.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="DarkBitcoinBox.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="DarkBitcoinBox.ToolTip" xml:space="preserve">
+    <value>Пример: RJvHgUTfYjRNVnpZjup6nUkppfipUKXpXy</value>
+  </data>
+  <data name="AddDataToBuilder.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FieldsClean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="BnbText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 14</value>
+  </data>
+  <data name="&gt;&gt;TronText.Name" xml:space="preserve">
+    <value>TronText</value>
+  </data>
+  <data name="WavesText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BitCashText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WavesBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="BytecoinText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="LiteBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 178</value>
+  </data>
+  <data name="&gt;&gt;AdaText.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;ShowMessage.Name" xml:space="preserve">
+    <value>ShowMessage</value>
+  </data>
+  <data name="NeoText.Text" xml:space="preserve">
+    <value>Neocoin:</value>
+  </data>
+  <data name="RippleText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;ShowMessage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BlockNetBox.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;NeoText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LinePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QutumText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 14</value>
+  </data>
+  <data name="DarkBitcoinBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="AdaText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LinePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 1</value>
+  </data>
+  <data name="&gt;&gt;QtumBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TronText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CreateBuilLogo.Text" xml:space="preserve">
+    <value>Ваши кошельки</value>
+  </data>
+  <data name="&gt;&gt;PayeerBox.Name" xml:space="preserve">
+    <value>PayeerBox</value>
+  </data>
+  <data name="DashBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="&gt;&gt;EtherBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BitcoinText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 52</value>
+  </data>
+  <data name="LiteText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;IotaBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowMessage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BytecoinText.Name" xml:space="preserve">
+    <value>BytecoinText</value>
+  </data>
+  <data name="LoadBoxs.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;QiwiBox.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;BitCashText.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="DarkBitcoinBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="ShowMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <data name="&gt;&gt;BitcointBox.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="LinePanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DonaText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 14</value>
+  </data>
+  <data name="&gt;&gt;XmrBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BlockNetBox.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="&gt;&gt;AdaBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RippleBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EtherBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AdaBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BitcoinText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 14</value>
+  </data>
+  <data name="BitCashText.Text" xml:space="preserve">
+    <value>BitcoinCash:</value>
+  </data>
+  <data name="BitGoldBox.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="DogeText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AdaText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 258</value>
+  </data>
+  <data name="ZcashText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 309</value>
+  </data>
+  <data name="LiteText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;WavesBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BlockNetBox.Name" xml:space="preserve">
+    <value>BlockNetBox</value>
+  </data>
+  <data name="&gt;&gt;WavesBox.Name" xml:space="preserve">
+    <value>WavesBox</value>
+  </data>
+  <data name="&gt;&gt;BitGoldBox.Name" xml:space="preserve">
+    <value>BitGoldBox</value>
+  </data>
+  <data name="&gt;&gt;AdaText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="YaText.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="&gt;&gt;EosText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DashBox.ToolTip" xml:space="preserve">
+    <value>Пример: Xqt9YsyieBSy7jEVfX9c1fMzPGJEZr6mDv</value>
+  </data>
+  <data name="BitGoldText.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="BitCashBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="BitcoinText.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;YandexBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RippleText.Name" xml:space="preserve">
+    <value>RippleText</value>
+  </data>
+  <data name="QiwiText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 78</value>
+  </data>
+  <data name="ShowMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="NeoBox.ToolTip" xml:space="preserve">
+    <value>Пример: AL5B8Bj6RubeA1BZt1LuvJg3f1M3aHqNuH</value>
+  </data>
+  <data name="&gt;&gt;EtherBox.Name" xml:space="preserve">
+    <value>EtherBox</value>
+  </data>
+  <data name="EosText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ZcashText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="WavesBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;BitcoinText.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="EtherBox.ToolTip" xml:space="preserve">
+    <value>Пример: 0x0A1b2C3d4E5f6G7h8I9j0K1l2M3n4O5p6Q7r8S9t</value>
+  </data>
+  <data name="&gt;&gt;AddDataToBuilder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LiteText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="AdaText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 14</value>
+  </data>
+  <data name="&gt;&gt;NeoBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RippleText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BytecoinText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 14</value>
+  </data>
+  <data name="QiwiBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="XmrBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BlackjackBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="IotaBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 281</value>
+  </data>
+  <data name="&gt;&gt;DonaText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BitDarkText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BnbText.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="EtherText.Text" xml:space="preserve">
+    <value>Ethereum:</value>
+  </data>
+  <data name="&gt;&gt;NeoText.Name" xml:space="preserve">
+    <value>NeoText</value>
+  </data>
+  <data name="DogeText.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="LiteBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;MoneroText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TronText.Text" xml:space="preserve">
+    <value>Troncoin:</value>
+  </data>
+  <data name="DashBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 255</value>
+  </data>
+  <data name="&gt;&gt;NeoBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="WavesBox.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="BitCashText.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="SaveBoxs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="&gt;&gt;BytecoinText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BlockNeText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AdaBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 255</value>
+  </data>
+  <data name="&gt;&gt;WavesText.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="QiwiBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="&gt;&gt;SaveBoxs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LoadBoxs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LiskText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="EosText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 129</value>
+  </data>
+  <data name="BinanceBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 152</value>
+  </data>
+  <data name="&gt;&gt;EosText.Name" xml:space="preserve">
+    <value>EosText</value>
+  </data>
+  <data name="&gt;&gt;BlockNetBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DogeText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AddDataToBuilder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 38</value>
+  </data>
+  <data name="BlockNeText.Text" xml:space="preserve">
+    <value>BlockNet:</value>
+  </data>
+  <data name="WavesText.Text" xml:space="preserve">
+    <value>Waves:</value>
+  </data>
+  <data name="&gt;&gt;LiteBox.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="BytecoinText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AdaText.Text" xml:space="preserve">
+    <value>Cardano (Ada):</value>
+  </data>
+  <data name="&gt;&gt;PayeerBox.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="DashText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="SaveBoxs.TabIndex" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <data name="&gt;&gt;BnbText.Name" xml:space="preserve">
+    <value>BnbText</value>
+  </data>
+  <data name="CreateBuilLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 14</value>
+  </data>
+  <data name="&gt;&gt;AdaBox.Name" xml:space="preserve">
+    <value>AdaBox</value>
+  </data>
+  <data name="RippleText.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="BlackjackBox.ToolTip" xml:space="preserve">
+    <value>Пример: 9fivmWuH4G1wWw2MUU5sQwNuyE1HSH2Hg3</value>
+  </data>
+  <metadata name="PayeerText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EtherText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="LinePanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ZcashBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="QtumBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="StellarText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BitCashBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DogeText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AdaBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EosBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DonaText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AdaText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ZcashText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BytecoinBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="XmrBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EosText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="StellarBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="QiwiText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BitGoldText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="RippleText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CreateBuilLogo.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="PayeerBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DashText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BlockNeText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="WavesText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BlackJackText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="IotaBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="LiskText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ShowHelperWalletSE.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ShowMessage.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TronText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AddDataToBuilder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="RippleBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DashBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="NeoText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BlockNetBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="QutumText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="YaText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DarkBitcoinBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BytecoinText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TronBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BnbText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="LiskBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="QiwiBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="LiteBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="IotaText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BinanceBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="YandexBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="LiteText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EtherBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BitcoinText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BlackjackBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="WavesBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BitGoldBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BitDarkText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DogeBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BitcointBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="NeoBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BitCashText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DonAlertBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MoneroText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

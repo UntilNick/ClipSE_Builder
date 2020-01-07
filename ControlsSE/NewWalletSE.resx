@@ -1,0 +1,1254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LinePanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AddDataToBuilder.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SteamOffBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;WebRBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddDataToBuilder.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="ViaBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;CreateBuilLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CosmosBox.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="NextDeveloperText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ViaText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;WebUText.Name" xml:space="preserve">
+    <value>WebUText</value>
+  </data>
+  <data name="WebUBox.TabIndex" type="System.Int32, mscorlib">
+    <value>235</value>
+  </data>
+  <data name="ShowMessage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;NextDeveloperText.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebRBox.ToolTip" xml:space="preserve">
+    <value>Пример: R339005555555</value>
+  </data>
+  <data name="CosmosBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="TezosBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;WebRText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SmartCashText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SmartCashText.Name" xml:space="preserve">
+    <value>SmartCashText</value>
+  </data>
+  <data name="WebRBox.TabIndex" type="System.Int32, mscorlib">
+    <value>233</value>
+  </data>
+  <data name="&gt;&gt;SteamOffBox.Name" xml:space="preserve">
+    <value>SteamOffBox</value>
+  </data>
+  <data name="&gt;&gt;WebZText.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="SmartCashText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;DecredText.Name" xml:space="preserve">
+    <value>DecredText</value>
+  </data>
+  <data name="&gt;&gt;DonatePayBox.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="AddDataToBuilder.Text" xml:space="preserve">
+    <value>Добавить данные в билдер</value>
+  </data>
+  <data name="&gt;&gt;BitDaimondText.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="FieldsClean.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TezosText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 129</value>
+  </data>
+  <data name="DecredText.TabIndex" type="System.Int32, mscorlib">
+    <value>219</value>
+  </data>
+  <data name="ViaBox.TabIndex" type="System.Int32, mscorlib">
+    <value>241</value>
+  </data>
+  <data name="&gt;&gt;SberText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DonatePayBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowMessage.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;WebZText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DaimonBox.ToolTip" xml:space="preserve">
+    <value>Пример: 1J6DBCXgvSC8DNRhCUTAZGW1Pnw8FxPqyA</value>
+  </data>
+  <data name="&gt;&gt;LoadBoxs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CreateBuilLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>211</value>
+  </data>
+  <data name="&gt;&gt;SberBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TezosBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="AddDataToBuilder.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NextDeveloperText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Kankin, 9.25pt</value>
+  </data>
+  <data name="&gt;&gt;LinePanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DonatePayBox.Name" xml:space="preserve">
+    <value>DonatePayBox</value>
+  </data>
+  <data name="NextDeveloperText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 17</value>
+  </data>
+  <data name="DonatePayBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="DonatePayBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SmartCashText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebZBox.ToolTip" xml:space="preserve">
+    <value>Пример: Z339005555555</value>
+  </data>
+  <data name="&gt;&gt;LinePanel.Name" xml:space="preserve">
+    <value>LinePanel</value>
+  </data>
+  <data name="LoadBoxs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>767, 422</value>
+  </data>
+  <data name="DonPayText.TabIndex" type="System.Int32, mscorlib">
+    <value>215</value>
+  </data>
+  <data name="WebUBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 126</value>
+  </data>
+  <data name="&gt;&gt;SteamOffBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WebZBox.TabIndex" type="System.Int32, mscorlib">
+    <value>234</value>
+  </data>
+  <data name="&gt;&gt;LoadBoxs.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="WebUText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LoadBoxs.Text" xml:space="preserve">
+    <value>Загрузить данные</value>
+  </data>
+  <data name="&gt;&gt;DonPayText.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;ViaBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="WebUBox.ToolTip" xml:space="preserve">
+    <value>Пример: U339005555555 </value>
+  </data>
+  <data name="&gt;&gt;WebUText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SaveBoxs.Text" xml:space="preserve">
+    <value>Сохранить данные</value>
+  </data>
+  <data name="&gt;&gt;ViaText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SteamOffBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="NextDeveloperText.TabIndex" type="System.Int32, mscorlib">
+    <value>226</value>
+  </data>
+  <data name="CosmosBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CosmosText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="SmartCashText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="WebRText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 14</value>
+  </data>
+  <data name="&gt;&gt;DecredText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TezosText.Text" xml:space="preserve">
+    <value>Tezos:</value>
+  </data>
+  <data name="DaimonBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SaveBoxs.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;BitDaimondText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SaveBoxs.TabIndex" type="System.Int32, mscorlib">
+    <value>236</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="WebUBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="TezosText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TezosText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateBuilLogo.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="NextDeveloperText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ViaText.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="WebZText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TezosBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SteamOffBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="&gt;&gt;DaimonBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NextDeveloperText.Name" xml:space="preserve">
+    <value>NextDeveloperText</value>
+  </data>
+  <data name="&gt;&gt;CosmosText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WebRText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DonPayText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;WebRText.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="WebUText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;CosmosBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SmartCashBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="ViaText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 14</value>
+  </data>
+  <data name="&gt;&gt;WebZText.Name" xml:space="preserve">
+    <value>WebZText</value>
+  </data>
+  <data name="DonatePayBox.ToolTip" xml:space="preserve">
+    <value>Пример: http://donatepay.ru/donation/login -  (login - это Ваш логин )
+Пример: http://donatepay.ru/don/login -  (login - это Ваш логин )
+</value>
+  </data>
+  <data name="&gt;&gt;SmartCashBox.Name" xml:space="preserve">
+    <value>SmartCashBox</value>
+  </data>
+  <data name="StofferText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;StofferText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WebUBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DecredText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 14</value>
+  </data>
+  <data name="WebRBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BitDaimondText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="SberBox.ToolTip" xml:space="preserve">
+    <value>Пример: 6443 6103 7869 3851
+Пример: 6443610378693851</value>
+  </data>
+  <data name="&gt;&gt;SberBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LoadBoxs.TabIndex" type="System.Int32, mscorlib">
+    <value>237</value>
+  </data>
+  <data name="WebUBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="SberText.Text" xml:space="preserve">
+    <value>SberBank:</value>
+  </data>
+  <data name="DecredText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 104</value>
+  </data>
+  <data name="AddDataToBuilder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 5</value>
+  </data>
+  <data name="&gt;&gt;WebZText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TezosBox.ToolTip" xml:space="preserve">
+    <value>Пример: tz1NZa442y5C6ArAe1aizGGDZW1iFdeqU8YY</value>
+  </data>
+  <data name="LoadBoxs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="WebZText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 104</value>
+  </data>
+  <data name="&gt;&gt;DecredBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddDataToBuilder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="WebUBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LinePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WebZBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;NextDeveloperText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateBuilLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FieldsClean.Text" xml:space="preserve">
+    <value>Очистить все поля</value>
+  </data>
+  <data name="&gt;&gt;AddDataToBuilder.Name" xml:space="preserve">
+    <value>AddDataToBuilder</value>
+  </data>
+  <data name="&gt;&gt;ShowHelperNewWalletSE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DecredText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SberBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="CreateBuilLogo.Text" xml:space="preserve">
+    <value>Ваши дополнительные кошельки</value>
+  </data>
+  <data name="DecredBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="WebZBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="SberBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="ShowMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>588, 19</value>
+  </data>
+  <data name="SberText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 154</value>
+  </data>
+  <data name="FieldsClean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 422</value>
+  </data>
+  <data name="AddDataToBuilder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 38</value>
+  </data>
+  <data name="&gt;&gt;ViaText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SaveBoxs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CosmosText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DonatePayBox.TabIndex" type="System.Int32, mscorlib">
+    <value>214</value>
+  </data>
+  <data name="StofferText.TabIndex" type="System.Int32, mscorlib">
+    <value>228</value>
+  </data>
+  <data name="&gt;&gt;SberText.Name" xml:space="preserve">
+    <value>SberText</value>
+  </data>
+  <data name="&gt;&gt;SmartCashBox.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;StofferText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BitDaimondText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TezosBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WebUBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="SteamOffBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="WebZText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 14</value>
+  </data>
+  <data name="WebUText.Text" xml:space="preserve">
+    <value>Webmoney U:</value>
+  </data>
+  <data name="CreateBuilLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 14</value>
+  </data>
+  <data name="DonPayText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 14</value>
+  </data>
+  <data name="DecredText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SaveBoxs.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ShowMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BitDaimondText.TabIndex" type="System.Int32, mscorlib">
+    <value>216</value>
+  </data>
+  <data name="SteamOffBox.ToolTip" xml:space="preserve">
+    <value>Пример: https://steamcommunity.com/tradeoffer/new/?partner=348498700&amp;token=v6orNXIF</value>
+  </data>
+  <data name="WebUText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 129</value>
+  </data>
+  <data name="&gt;&gt;SteamOffBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SmartCashBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DecredBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="WebRBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;ViaText.Name" xml:space="preserve">
+    <value>ViaText</value>
+  </data>
+  <data name="SberBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 152</value>
+  </data>
+  <data name="ShowMessage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BitDaimondText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 14</value>
+  </data>
+  <data name="&gt;&gt;WebZBox.Name" xml:space="preserve">
+    <value>WebZBox</value>
+  </data>
+  <data name="SmartCashBox.TabIndex" type="System.Int32, mscorlib">
+    <value>225</value>
+  </data>
+  <data name="&gt;&gt;WebRBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DonPayText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CreateBuilLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 9</value>
+  </data>
+  <data name="WebRText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="WebRText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TezosText.TabIndex" type="System.Int32, mscorlib">
+    <value>220</value>
+  </data>
+  <data name="DonPayText.Text" xml:space="preserve">
+    <value>DonatePay:</value>
+  </data>
+  <data name="SberText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TezosBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="WebZBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="NextDeveloperText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 235</value>
+  </data>
+  <data name="DaimonBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 75</value>
+  </data>
+  <data name="SteamOffBox.TabIndex" type="System.Int32, mscorlib">
+    <value>232</value>
+  </data>
+  <data name="CosmosText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;WebUText.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="LoadBoxs.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DaimonBox.TabIndex" type="System.Int32, mscorlib">
+    <value>217</value>
+  </data>
+  <data name="&gt;&gt;WebUBox.Name" xml:space="preserve">
+    <value>WebUBox</value>
+  </data>
+  <data name="SmartCashBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="LinePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 27</value>
+  </data>
+  <data name="SberBox.TabIndex" type="System.Int32, mscorlib">
+    <value>239</value>
+  </data>
+  <data name="&gt;&gt;DecredBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DonPayText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 52</value>
+  </data>
+  <data name="DecredText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;WebRBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="SaveBoxs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 422</value>
+  </data>
+  <data name="&gt;&gt;DaimonBox.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="CosmosBox.TabIndex" type="System.Int32, mscorlib">
+    <value>222</value>
+  </data>
+  <data name="SberText.TabIndex" type="System.Int32, mscorlib">
+    <value>238</value>
+  </data>
+  <data name="&gt;&gt;ShowMessage.Name" xml:space="preserve">
+    <value>ShowMessage</value>
+  </data>
+  <data name="CosmosText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;CosmosText.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;StofferText.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="WebUText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 14</value>
+  </data>
+  <data name="SmartCashText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 181</value>
+  </data>
+  <data name="&gt;&gt;WebRText.Name" xml:space="preserve">
+    <value>WebRText</value>
+  </data>
+  <data name="CosmosBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;SteamOffBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="WebZBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 101</value>
+  </data>
+  <data name="FieldsClean.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="SmartCashBox.ToolTip" xml:space="preserve">
+    <value>Пример: SeFr6HSjfC7wVi6fouauwXWZRcznhc7eBi</value>
+  </data>
+  <data name="WebRBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 75</value>
+  </data>
+  <data name="&gt;&gt;CosmosBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DonatePayBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="&gt;&gt;DonPayText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TezosBox.Name" xml:space="preserve">
+    <value>TezosBox</value>
+  </data>
+  <data name="DecredText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ViaBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="&gt;&gt;SaveBoxs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StofferText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 52</value>
+  </data>
+  <data name="&gt;&gt;SberBox.Name" xml:space="preserve">
+    <value>SberBox</value>
+  </data>
+  <data name="BitDaimondText.Text" xml:space="preserve">
+    <value>Diamond:</value>
+  </data>
+  <data name="ViaBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 178</value>
+  </data>
+  <data name="CreateBuilLogo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ViaBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="WebRText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="WebRText.TabIndex" type="System.Int32, mscorlib">
+    <value>229</value>
+  </data>
+  <data name="SteamOffBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 49</value>
+  </data>
+  <data name="WebZText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="CreateBuilLogo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="DonPayText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="DecredBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="&gt;&gt;TezosText.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;ShowHelperNewWalletSE.Name" xml:space="preserve">
+    <value>ShowHelperNewWalletSE</value>
+  </data>
+  <data name="StofferText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 14</value>
+  </data>
+  <data name="FieldsClean.TabIndex" type="System.Int32, mscorlib">
+    <value>242</value>
+  </data>
+  <data name="&gt;&gt;WebZBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LinePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 1</value>
+  </data>
+  <data name="StofferText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ViaText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 181</value>
+  </data>
+  <data name="CosmosText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 154</value>
+  </data>
+  <data name="FieldsClean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="&gt;&gt;LoadBoxs.Name" xml:space="preserve">
+    <value>LoadBoxs</value>
+  </data>
+  <data name="TezosBox.TabIndex" type="System.Int32, mscorlib">
+    <value>221</value>
+  </data>
+  <data name="&gt;&gt;WebRBox.Name" xml:space="preserve">
+    <value>WebRBox</value>
+  </data>
+  <data name="CosmosBox.ToolTip" xml:space="preserve">
+    <value>Пример: cosmos1wtwsrne4tqpczls45wheakucy2la0vvx9ruy8y</value>
+  </data>
+  <data name="DonPayText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;FieldsClean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ViaBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;SaveBoxs.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ShowMessage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ViaBox.Name" xml:space="preserve">
+    <value>ViaBox</value>
+  </data>
+  <data name="&gt;&gt;SmartCashText.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;CosmosText.Name" xml:space="preserve">
+    <value>CosmosText</value>
+  </data>
+  <data name="ViaText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;SmartCashText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TezosText.Name" xml:space="preserve">
+    <value>TezosText</value>
+  </data>
+  <data name="&gt;&gt;FieldsClean.Name" xml:space="preserve">
+    <value>FieldsClean</value>
+  </data>
+  <data name="&gt;&gt;WebUText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DecredText.Text" xml:space="preserve">
+    <value>Decred:</value>
+  </data>
+  <data name="&gt;&gt;SaveBoxs.Name" xml:space="preserve">
+    <value>SaveBoxs</value>
+  </data>
+  <data name="&gt;&gt;DaimonBox.Name" xml:space="preserve">
+    <value>DaimonBox</value>
+  </data>
+  <data name="&gt;&gt;TezosText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DaimonBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DonatePayBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="DaimonBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="ViaText.TabIndex" type="System.Int32, mscorlib">
+    <value>240</value>
+  </data>
+  <data name="&gt;&gt;SberBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BitDaimondText.Name" xml:space="preserve">
+    <value>BitDaimondText</value>
+  </data>
+  <data name="&gt;&gt;AddDataToBuilder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WebZText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AddDataToBuilder.TabIndex" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <data name="SmartCashText.Text" xml:space="preserve">
+    <value>SmartCash:</value>
+  </data>
+  <data name="LinePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <data name="&gt;&gt;FieldsClean.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SmartCashText.TabIndex" type="System.Int32, mscorlib">
+    <value>224</value>
+  </data>
+  <data name="&gt;&gt;SmartCashBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WebUText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="SberText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="ViaText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;WebUBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WebRText.Text" xml:space="preserve">
+    <value>Webmoney R:</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>906, 450</value>
+  </data>
+  <data name="&gt;&gt;ViaBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TezosBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 126</value>
+  </data>
+  <data name="StofferText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="SaveBoxs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="SberText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 14</value>
+  </data>
+  <data name="CosmosText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 14</value>
+  </data>
+  <data name="CreateBuilLogo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TezosText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 14</value>
+  </data>
+  <data name="&gt;&gt;CosmosBox.Name" xml:space="preserve">
+    <value>CosmosBox</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>NewWalletSE</value>
+  </data>
+  <data name="SberBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;WebZBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DecredBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DecredBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 101</value>
+  </data>
+  <data name="WebRText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 78</value>
+  </data>
+  <data name="&gt;&gt;LinePanel.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;DonatePayBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DonPayText.Name" xml:space="preserve">
+    <value>DonPayText</value>
+  </data>
+  <data name="NextDeveloperText.Text" xml:space="preserve">
+    <value>Остальные кошельки в разработке</value>
+  </data>
+  <data name="CosmosBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 152</value>
+  </data>
+  <data name="&gt;&gt;BitDaimondText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WebRBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="&gt;&gt;StofferText.Name" xml:space="preserve">
+    <value>StofferText</value>
+  </data>
+  <data name="CosmosBox.MaxLength" type="System.Int32, mscorlib">
+    <value>99999</value>
+  </data>
+  <data name="&gt;&gt;SberText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CosmosText.TabIndex" type="System.Int32, mscorlib">
+    <value>223</value>
+  </data>
+  <data name="WebZBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="WebZText.TabIndex" type="System.Int32, mscorlib">
+    <value>230</value>
+  </data>
+  <data name="SmartCashText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 14</value>
+  </data>
+  <data name="StofferText.Text" xml:space="preserve">
+    <value>Steam Offer:</value>
+  </data>
+  <data name="&gt;&gt;WebZBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="WebRBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;LoadBoxs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ViaText.Text" xml:space="preserve">
+    <value>Viacoin:</value>
+  </data>
+  <data name="TezosText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="DonatePayBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 49</value>
+  </data>
+  <data name="ViaBox.ToolTip" xml:space="preserve">
+    <value>Пример:  VnqQS43QMtppHseDoEcSBmGzVYwnN1ajcC</value>
+  </data>
+  <data name="BitDaimondText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;FieldsClean.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateBuilLogo.Name" xml:space="preserve">
+    <value>CreateBuilLogo</value>
+  </data>
+  <data name="BitDaimondText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 78</value>
+  </data>
+  <data name="WebUText.TabIndex" type="System.Int32, mscorlib">
+    <value>231</value>
+  </data>
+  <data name="SmartCashBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 178</value>
+  </data>
+  <data name="DecredBox.ToolTip" xml:space="preserve">
+    <value>Пример: DsgHKqNHmx4rx5qFpX2BqvTaj1AaJVe2ojW</value>
+  </data>
+  <data name="ShowMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="SberText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;SberText.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TezosText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;SmartCashBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CosmosText.Text" xml:space="preserve">
+    <value>Cosmos:</value>
+  </data>
+  <data name="&gt;&gt;TezosBox.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;DecredBox.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="DaimonBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 20</value>
+  </data>
+  <data name="WebZText.Text" xml:space="preserve">
+    <value>Webmoney Z:</value>
+  </data>
+  <data name="ShowMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>227</value>
+  </data>
+  <data name="&gt;&gt;DecredBox.Name" xml:space="preserve">
+    <value>DecredBox</value>
+  </data>
+  <data name="DecredBox.TabIndex" type="System.Int32, mscorlib">
+    <value>218</value>
+  </data>
+  <data name="LoadBoxs.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;NextDeveloperText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WebUBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;DecredText.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <metadata name="CosmosBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ViaBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="WebZText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CosmosText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="SberBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DonatePayBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="SmartCashText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="WebRText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TezosBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="StofferText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DaimonBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DecredBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="WebUBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="WebZBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="WebRBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ViaText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ShowHelperNewWalletSE.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>46</value>
+  </metadata>
+  <metadata name="CreateBuilLogo.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="SmartCashBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DonPayText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BitDaimondText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DecredText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="SteamOffBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="WebUText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TezosText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="SberText.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="LinePanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AddDataToBuilder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

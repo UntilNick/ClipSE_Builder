@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="QtumBox.ToolTip" xml:space="preserve">
+    <value>Example: QQf8azAwY8jftezAJbdifjupY5e7kNse51</value>
+  </data>
+  <data name="WavesBox.ToolTip" xml:space="preserve">
+    <value>Example: 3P8a5gTncvVtCjySJ5JhwLCp61U83U9JvjA</value>
+  </data>
+  <data name="LiskBox.ToolTip" xml:space="preserve">
+    <value>Example: 11640058110635876848L</value>
+  </data>
+  <data name="AdaBox.ToolTip" xml:space="preserve">
+    <value>Example: DdzFFzCqrht3qMR1KTc4cE3wsgZWew9q4RypjuHg2kjtUUApvVDzPA4g1SDxsJCJKuPKRRqUevkFvuSgu9GTnfgYkUtypCKEv9HB6jS4</value>
+  </data>
+  <data name="IotaBox.ToolTip" xml:space="preserve">
+    <value>Example: ORXGQZZCCGCUW9FICMHULRUAQOULKSVJSQZVA9HLZUVCRJKSRHQTXYDUWRXKPTWIYJIAFVOLW9QQRKPC9XTC9ORFAX</value>
+  </data>
+  <data name="QiwiBox.ToolTip" xml:space="preserve">
+    <value>Example: 89189854319</value>
+  </data>
+  <data name="YandexBox.ToolTip" xml:space="preserve">
+    <value>Example: 410017085752949</value>
+  </data>
+  <data name="EosBox.ToolTip" xml:space="preserve">
+    <value>Example:  yjez3hcw1mj4</value>
+  </data>
+  <data name="RippleBox.ToolTip" xml:space="preserve">
+    <value>Example: rGEnUeZd7FXJTmr8BiwqNCPJFp8MeNqtM</value>
+  </data>
+  <data name="TronBox.ToolTip" xml:space="preserve">
+    <value>Example: TMzj3HsA5Z7H3Cuzriv3KLsL5PL2WZyyo8</value>
+  </data>
+  <data name="NeoBox.ToolTip" xml:space="preserve">
+    <value>Example: AL5B8Bj6RubeA1BZt1LuvJg3f1M3aHqNuH</value>
+  </data>
+  <data name="ZcashBox.ToolTip" xml:space="preserve">
+    <value>Example: t1KgjFaNWQsUDB8NPtz1MMUPPYrh4x51VSe</value>
+  </data>
+  <data name="LiteBox.ToolTip" xml:space="preserve">
+    <value>Example: LfvsU5Nxx366NKAZpBiUEjbSvuBsvU1X6Y</value>
+  </data>
+  <data name="EtherBox.ToolTip" xml:space="preserve">
+    <value>Example: 0x0A1b2C3d4E5f6G7h8I9j0K1l2M3n4O5p6Q7r8S9t</value>
+  </data>
+  <data name="PayeerBox.ToolTip" xml:space="preserve">
+    <value>Example: P1013357249</value>
+  </data>
+  <data name="StellarBox.ToolTip" xml:space="preserve">
+    <value>Example: GBUAPGUXP3DJ7HPV2J2KK3MUQF7DWBM6EWUTRGBINDHIAC67LJ4UMDTV</value>
+  </data>
+  <data name="XmrBox.ToolTip" xml:space="preserve">
+    <value>Example: 48tVhprhtPAM8JRbaAySysSXmwuNNS3oGX9cfawfDy1kaJdaRk76cRtG2Dt7MEQN7LgRqwCpGzCgoTmP1DnzYqXZAAPLFZqм</value>
+  </data>
+  <data name="DonAlertBox.ToolTip" xml:space="preserve">
+    <value>Example: https://www.donationalerts.com/r/login -  (login - это Ваш логин )</value>
+  </data>
+  <data name="BlackjackBox.ToolTip" xml:space="preserve">
+    <value>Example: 9fivmWuH4G1wWw2MUU5sQwNuyE1HSH2Hg3</value>
+  </data>
+  <data name="DarkBitcoinBox.ToolTip" xml:space="preserve">
+    <value>Example: RJvHgUTfYjRNVnpZjup6nUkppfipUKXpXy</value>
+  </data>
+  <data name="BlockNetBox.ToolTip" xml:space="preserve">
+    <value>Example: BdnF8c3znwg51zomfz3zLUUzP8faW9GX7a</value>
+  </data>
+  <data name="BytecoinBox.ToolTip" xml:space="preserve">
+    <value>Example: 28AbxE53352EzkbVvZccUNN6N5X7RC4w7SSuSzazJnASZQLcFFVcBhy8Pew9g3Njb75Lh9EV9pwZheu376kWftjGTpX8XFv</value>
+  </data>
+  <data name="BinanceBox.ToolTip" xml:space="preserve">
+    <value>Example: bnb1ya9ugn0kk2dfk2xdtahtf3caxtfrcr2g940llp</value>
+  </data>
+  <data name="DogeBox.ToolTip" xml:space="preserve">
+    <value>Example: D9DpxRaYzVJaWY6tG1sd6aY8m1o3nakymE</value>
+  </data>
+  <data name="DashBox.ToolTip" xml:space="preserve">
+    <value>Example: Xqt9YsyieBSy7jEVfX9c1fMzPGJEZr6mDv</value>
+  </data>
+  <data name="BitGoldBox.ToolTip" xml:space="preserve">
+    <value>Example: GLxc3eoNZR4MQqg2rseus5SEqVT2TjxYhp</value>
+  </data>
+  <data name="BitCashBox.ToolTip" xml:space="preserve">
+    <value>Example: 1MjJEkxXRnGqD8WuzTvpHMzcMuQLTEqmVp</value>
+  </data>
+  <data name="BitcointBox.ToolTip" xml:space="preserve">
+    <value>Example: 1G9xgkjBiPLUbfVWERY1Ub7Bj753jP9Lkt</value>
+  </data>
+  <data name="AddDataToBuilder.Text" xml:space="preserve">
+    <value>Add data to Builder</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CreateBuilLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 14</value>
+  </data>
+  <data name="CreateBuilLogo.Text" xml:space="preserve">
+    <value>Your Wallets</value>
+  </data>
+  <data name="LinePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 1</value>
+  </data>
+  <data name="SaveBoxs.Text" xml:space="preserve">
+    <value>Save data</value>
+  </data>
+  <data name="LoadBoxs.Text" xml:space="preserve">
+    <value>Load data</value>
+  </data>
+  <data name="FieldsClean.Text" xml:space="preserve">
+    <value>Clear all fields</value>
+  </data>
+</root>

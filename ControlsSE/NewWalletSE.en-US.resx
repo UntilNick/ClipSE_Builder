@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CreateBuilLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 14</value>
+  </data>
+  <data name="CreateBuilLogo.Text" xml:space="preserve">
+    <value>Your extra wallets</value>
+  </data>
+  <data name="CreateBuilLogo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 1</value>
+  </data>
+  <data name="LinePanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AddDataToBuilder.Text" xml:space="preserve">
+    <value>Add data to Builder</value>
+  </data>
+  <data name="AddDataToBuilder.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DonPayText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DonatePayBox.ToolTip" xml:space="preserve">
+    <value>Example: http://donatepay.ru/donation/login -  (login - this is Your login)
+Example: http://donatepay.ru/don/login -  (login - this is Your login)
+</value>
+  </data>
+  <data name="BitDaimondText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DaimonBox.ToolTip" xml:space="preserve">
+    <value>Example: 1J6DBCXgvSC8DNRhCUTAZGW1Pnw8FxPqyA</value>
+  </data>
+  <data name="TezosBox.ToolTip" xml:space="preserve">
+    <value>Example: tz1NZa442y5C6ArAe1aizGGDZW1iFdeqU8YY</value>
+  </data>
+  <data name="TezosText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DecredText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DecredBox.ToolTip" xml:space="preserve">
+    <value>Example: DsgHKqNHmx4rx5qFpX2BqvTaj1AaJVe2ojW</value>
+  </data>
+  <data name="SmartCashBox.ToolTip" xml:space="preserve">
+    <value>Example: SeFr6HSjfC7wVi6fouauwXWZRcznhc7eBi</value>
+  </data>
+  <data name="SmartCashText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CosmosText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CosmosBox.ToolTip" xml:space="preserve">
+    <value>Example: cosmos1wtwsrne4tqpczls45wheakucy2la0vvx9ruy8y</value>
+  </data>
+  <data name="NextDeveloperText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 17</value>
+  </data>
+  <data name="NextDeveloperText.Text" xml:space="preserve">
+    <value>Other wallets in development</value>
+  </data>
+  <data name="NextDeveloperText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ShowMessage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SteamOffBox.ToolTip" xml:space="preserve">
+    <value>Example: https://steamcommunity.com/tradeoffer/new/?partner=348498700&amp;token=v6orNXIF
+</value>
+  </data>
+  <data name="WebRBox.ToolTip" xml:space="preserve">
+    <value>Example: R90950492871</value>
+  </data>
+  <data name="WebZBox.ToolTip" xml:space="preserve">
+    <value>Example: Z90594859291</value>
+  </data>
+  <data name="WebUBox.ToolTip" xml:space="preserve">
+    <value>Example: U90590394815</value>
+  </data>
+  <data name="SberBox.ToolTip" xml:space="preserve">
+    <value>Example: 5462 3152 7619 6311
+Example: 5462315276196311
+</value>
+  </data>
+  <data name="ViaBox.ToolTip" xml:space="preserve">
+    <value>Example: VnqQS43QMtppHseDoEcSBmGzVYwnN1ajcC</value>
+  </data>
+  <data name="StofferText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebRText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebUText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebZText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LoadBoxs.Text" xml:space="preserve">
+    <value>Load Data</value>
+  </data>
+  <data name="LoadBoxs.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SaveBoxs.Text" xml:space="preserve">
+    <value>Save data</value>
+  </data>
+  <data name="SaveBoxs.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SberText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ViaText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FieldsClean.Text" xml:space="preserve">
+    <value>Clear all fields</value>
+  </data>
+  <data name="FieldsClean.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>
